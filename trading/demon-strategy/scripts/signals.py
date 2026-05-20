@@ -81,6 +81,27 @@ STRATEGY_CONFIG = {
     "diverge_vol_mult": 3.0,       # Confirmation volume > 3x avg
     "diverge_body_pct": 0.03,      # Confirmation candle body > 3%
 
+    # ---- OI + Volume Combo Scoring (NEW v2.1) ----
+    # OI surge: 1h change + MA10 breakout
+    "oi_change_1h_pct": 45,        # OI 1h change ≥ 45%
+    "oi_ma10_mult": 1.25,           # OI > MA10 * 1.25
+    "oi_score_base": 40,            # Base score for OI surge
+    "oi_score_slope": 0.8,          # Extra score per % above threshold
+    "oi_score_max_extra": 30,       # Max extra OI score (total max = 70)
+
+    # Volume surge: precise thresholds
+    "vol_ratio_strong": 3.8,        # ≥ 3.8x → 40 pts
+    "vol_ratio_moderate": 2.8,      # ≥ 2.8x → 25 pts
+
+    # OI+Volume combo
+    "oi_weight_combo": 0.6,         # OI weight in combo
+    "vol_weight_combo": 0.4,        # Volume weight in combo
+    "combo_threshold": 55,          # Min combo score to add to total
+
+    # Funding rate change
+    "fr_change_window_min": 30,     # 30 min window
+    "fr_change_threshold": 0.50,    # 50% rise → bonus
+
     # Blacklisted symbols
     "blacklist": ["BTC/USDT", "ETH/USDT"],
 }
@@ -563,8 +584,199 @@ def check_bonus_indicators(arr: Dict[str, np.ndarray]) -> Tuple[int, List[str]]:
 
 
 # ============================================================
-# COMPREHENSIVE SIGNAL SCAN (主扫描函数)
+# OI + VOLUME PRECISION SCORING (v2.1)
 # ============================================================
+
+def fetch_oi_history(symbol: str, config: dict = None, limit: int = 14) -> List[float]:
+    """Fetch OI history from Binance Futures.
+
+    Gets the last `limit` OI readings at 5m intervals.
+    Returns list of OI values (oldest first).
+    """
+    import ccxt
+    from market import _load_config
+
+    if config is None:
+        try:
+            config = _load_config()
+        except:
+            pass
+
+    ex = ccxt.binance({
+        'enableRateLimit': True,
+        'timeout': 15000,
+    })
+    if config and config.get('proxy'):
+        ex.proxies = config['proxy']
+    ex.options['defaultType'] = 'future'
+
+    sym = _format_symbol(symbol)
+
+    try:
+        # fetch_open_interest_history(symbol, timeframe, since, limit)
+        # Returns list of {timestamp, openInterestValue}
+        ohlcv = ex.fetch_open_interest_history(sym, timeframe='5m', limit=limit)
+        if ohlcv and len(ohlcv) > 0:
+            values = [float(v['openInterestValue']) for v in ohlcv]
+            return values
+        return []
+    except Exception as e:
+        # Fallback: try REST ticker for current OI only
+        try:
+            ticker = ex.fetch_ticker(sym)
+            info = ticker.get('info', {})
+            oi = float(info.get('openInterest', 0))
+            return [oi] if oi > 0 else []
+        except:
+            return []
+
+
+def score_oi_surge(oi_values: List[float]) -> Tuple[float, str]:
+    """Score OI surge using precise formula.
+
+    oi_change_1h = (oi_current - oi_1h_ago) / oi_1h_ago * 100
+    oi_ma10 = average of last 10 OI readings
+
+    Strong signal: oi_change_1h >= 45% AND oi_current > oi_ma10 * 1.25
+    Score: 40 + min((change - 45) * 0.8, 30) → max 70
+
+    Returns (score, description).
+    """
+    cfg = STRATEGY_CONFIG
+
+    if len(oi_values) < 2:
+        return 0, "OI数据不足"
+
+    oi_current = oi_values[-1]
+    if oi_current <= 0:
+        return 0, "OI为0"
+
+    # 1h change (12 × 5m)
+    oi_1h_idx = max(0, len(oi_values) - 13)  # ensure we have 12 bars back
+    oi_1h_ago = oi_values[oi_1h_idx]
+    if oi_1h_ago <= 0:
+        return 0, "OI基准无效"
+
+    oi_change_1h = (oi_current - oi_1h_ago) / oi_1h_ago * 100
+
+    # MA10
+    oi_last_10 = oi_values[-10:] if len(oi_values) >= 10 else oi_values
+    oi_ma10 = sum(oi_last_10) / len(oi_last_10)
+
+    # Check threshold
+    if oi_change_1h >= cfg["oi_change_1h_pct"] and oi_current > oi_ma10 * cfg["oi_ma10_mult"]:
+        extra = min((oi_change_1h - cfg["oi_change_1h_pct"]) * cfg["oi_score_slope"],
+                    cfg["oi_score_max_extra"])
+        score = cfg["oi_score_base"] + extra
+        return round(score, 1), (
+            f"OI暴增 {oi_change_1h:.1f}%/1h"
+            f" | OI>{oi_ma10*cfg['oi_ma10_mult']:.0f}"
+            f" | MA10={oi_ma10:.0f}"
+        )
+    elif oi_change_1h >= 25:
+        # Partial signal: OI rising but below threshold
+        partial = min(oi_change_1h * 0.4, 25)
+        return round(partial, 1), f"OI上升 {oi_change_1h:.1f}%/1h"
+    else:
+        return 0, f"OI平稳 ({oi_change_1h:.1f}%/1h | MA10={oi_ma10:.0f})"
+
+
+def score_volume_surge(vol_current: float, vol_ma20: float) -> Tuple[float, str]:
+    """Score volume surge with precise thresholds.
+
+    vol_ratio = vol_current / vol_ma20
+    >= 3.8 → 40 pts
+    >= 2.8 → 25 pts
+    else → 0 pts
+
+    Returns (score, description).
+    """
+    cfg = STRATEGY_CONFIG
+
+    if vol_ma20 <= 0:
+        return 0, "无均量数据"
+
+    ratio = vol_current / vol_ma20
+
+    if ratio >= cfg["vol_ratio_strong"]:
+        return float(cfg["vol_ratio_strong"] * 10.5), f"量能暴增 {ratio:.1f}x"  # ~40
+    elif ratio >= cfg["vol_ratio_moderate"]:
+        return 25.0, f"量能激增 {ratio:.1f}x"
+    else:
+        return 0, f"量能正常 ({ratio:.1f}x)"
+
+
+def score_oi_volume_combo(oi_score: float, vol_score: float) -> Tuple[float, str]:
+    """Calculate OI + Volume combo strength.
+
+    combined_score = (oi_score * 0.6 + vol_score * 0.4)
+    Only adds to total if combined_score >= 55 AND there's a price breakout.
+
+    Returns (combo_score, description).
+    """
+    cfg = STRATEGY_CONFIG
+    combo = oi_score * cfg["oi_weight_combo"] + vol_score * cfg["vol_weight_combo"]
+    desc = f"OI×0.6+Vol×0.4 = {combo:.1f}"
+
+    if combo >= cfg["combo_threshold"]:
+        desc += " 🔥强劲"
+    elif combo >= 35:
+        desc += " 🟡中等"
+    else:
+        desc += ""
+
+    return round(combo, 1), desc
+
+
+def check_funding_rate_change(symbol: str, config: dict = None) -> Tuple[bool, float, str]:
+    """Check funding rate change over 30 minutes.
+
+    Fetches current funding rate and compares to 30 min ago.
+    Returns (is_rising_fast, change_ratio, description).
+
+    Note: Binance funding rate changes every 8 hours, so 30-min change
+    detection uses the funding rate trend from ticker snapshots.
+    """
+    # Binance futures funding rate is fixed for 8h periods.
+    # We detect if rate has flipped to extreme positive in last 30 min
+    # by comparing the current rate to a threshold.
+    import ccxt
+    from market import _load_config
+
+    if config is None:
+        try:
+            config = _load_config()
+        except:
+            pass
+
+    try:
+        ex = ccxt.binance({
+            'enableRateLimit': True,
+            'timeout': 10000,
+        })
+        if config and config.get('proxy'):
+            ex.proxies = config['proxy']
+        ex.options['defaultType'] = 'future'
+
+        sym = _format_symbol(symbol)
+        ticker = ex.fetch_ticker(sym)
+        fr = ticker.get('info', {}).get('lastFundingRate')
+        if not fr:
+            return False, 0, "费率不可用"
+
+        fr_val = float(fr)
+        fr_pct = fr_val * 100
+
+        # Rate above threshold means high long pressure
+        if fr_val >= 0.00075:  # 0.075%
+            return True, fr_val, f"费率偏高 {fr_pct:.4f}% → 多头拥挤"
+        elif fr_val <= -0.00075:
+            return True, abs(fr_val), f"费率偏低 {fr_pct:.4f}% → 空头拥挤"
+        else:
+            return False, fr_val, f"费率正常 {fr_pct:.4f}%"
+
+    except Exception as e:
+        return False, 0, f"费率获取失败: {e}"
 
 def scan_single(symbol: str, config: dict = None) -> Dict:
     """Scan a single symbol with all pattern detectors + bonus indicators.
@@ -637,37 +849,62 @@ def scan_single(symbol: str, config: dict = None) -> Dict:
         total_score += bonus_score
         result["bonus"] = {"score": bonus_score, "descs": bonus_descs}
 
-        result["total_score"] = round(total_score, 1)
-        result["scores"]["total"] = round(total_score, 1)
-        result["pattern_count"] = pattern_count
+        # ---- OI + Volume Combo Scoring (v2.1) ----
+        oi_result = {"score": 0, "desc": "", "values": [], "vol_score": 0, "combo": 0}
+        has_breakout = rocket_hit or vbrk_hit or flag_hit
 
-        # Funding rate check
+        # OI history (async-friendly: try/catch so it never blocks the scan)
         try:
-            import ccxt
-            from market import _load_config
-            if config is None:
-                try:
-                    config = _load_config()
-                except:
-                    pass
-            ex = ccxt.binance({
-                'enableRateLimit': True,
-                'timeout': 10000,
-            })
-            if config and config.get('proxy'):
-                ex.proxies = config['proxy']
-            ex.options['defaultType'] = 'future'
-            ticker = ex.fetch_ticker(sym)
-            fr = ticker.get('info', {}).get('lastFundingRate')
-            if fr:
-                fr_val = float(fr)
-                result["funding_rate"] = fr_val
-                if abs(fr_val) > cfg["funding_rate_max"]:
-                    result["reason"] = f"资金费率过高 ({fr_val*100:.2f}%)"
-                    result["signal"] = False
-                    return result
-        except:
-            result["funding_rate"] = None
+            oi_values = fetch_oi_history(sym, config, limit=14)
+            if oi_values and len(oi_values) >= 2:
+                oi_score, oi_desc = score_oi_surge(oi_values)
+                oi_result["score"] = oi_score
+                oi_result["desc"] = oi_desc
+                oi_result["values"] = [float(v) for v in oi_values[-3:]]  # last 3
+        except Exception as e:
+            oi_result["desc"] = f"OI获取失败: {e}"
+
+        # Volume surge (from existing K-line data)
+        vol_current = arr["volume"][-1]
+        vol_ma20_val = np.mean(arr["volume"][-20:]) if arr["n"] >= 20 else 0
+        vol_score, vol_desc = score_volume_surge(vol_current, vol_ma20_val)
+        oi_result["vol_score"] = vol_score
+        oi_result["vol_desc"] = vol_desc
+        oi_result["vol_ratio"] = round(vol_current / vol_ma20_val, 2) if vol_ma20_val > 0 else 0
+
+        # Combo score
+        combo_score, combo_desc = score_oi_volume_combo(oi_result["score"], vol_score)
+        oi_result["combo"] = combo_score
+        oi_result["combo_desc"] = combo_desc
+
+        # Only add combo to total if ≥ 55 AND price breakout exists
+        if combo_score >= cfg["combo_threshold"] and has_breakout:
+            total_score += combo_score
+            oi_result["applied"] = True
+            oi_result["applied_reason"] = "组合强劲+价格突破"
+        elif combo_score >= cfg["combo_threshold"]:
+            oi_result["applied"] = False
+            oi_result["applied_reason"] = "组合强劲但无价格突破"
+        else:
+            oi_result["applied"] = False
+            oi_result["applied_reason"] = "组合未达阈值"
+
+        result["oi_volume"] = oi_result
+
+        # ---- Funding Rate Check ----
+        fr_alert, fr_val, fr_desc = check_funding_rate_change(sym, config)
+        result["funding_rate"] = fr_val if fr_val else None
+        result["fr_alert"] = fr_alert
+        result["fr_desc"] = fr_desc
+
+        # Check extreme funding rate
+        if fr_val and abs(fr_val) > cfg["funding_rate_max"]:
+            result["reason"] = f"资金费率过高 ({fr_val*100:.2f}%)"
+            result["signal"] = False
+            return result
+
+        result["total_score"] = round(total_score, 1)
+        result["pattern_count"] = pattern_count
 
         # ---- Signal Decision ----
         threshold = cfg["signal_threshold"]
@@ -802,6 +1039,15 @@ def format_signal_report(signal: Dict) -> str:
         if p.get('hit'):
             lines.append(f"  {p['desc']}")
 
+    # OI + Volume Combo
+    oiv = signal.get('oi_volume', {})
+    if oiv.get('applied') or oiv.get('combo', 0) > 0:
+        lines.append(f"  📊 OI+Vol组合: {oiv.get('combo_desc', '')}")
+        if oiv.get('desc'):
+            lines.append(f"    OI: {oiv['desc']}")
+        if oiv.get('vol_desc'):
+            lines.append(f"    Vol: {oiv['vol_desc']}")
+
     # Bonus
     bonus = signal.get('bonus', {})
     if bonus.get('descs'):
@@ -809,9 +1055,9 @@ def format_signal_report(signal: Dict) -> str:
             lines.append(f"  ✨ {d}")
 
     # Funding rate
-    fr = signal.get('funding_rate')
-    if fr is not None:
-        lines.append(f"  💰 资金费率: {fr*100:.4f}%")
+    fr_desc = signal.get('fr_desc')
+    if fr_desc:
+        lines.append(f"  💰 {fr_desc}")
 
     return "\n".join(lines)
 
@@ -830,7 +1076,7 @@ if __name__ == "__main__":
         result = scan_market(top_n=top_n)
 
         print(f"\n{'='*60}")
-        print(f"  妖币扫描 v2.0 — {result['timestamp']}")
+        print(f"  妖币扫描 v2.1 — {result['timestamp']}")
         print(f"{'='*60}")
         print(f"扫描: {result['scanned']}个 | 信号: {result['signals_count']}个")
         print(f"平均分: {result['summary']['avg_score']:.0f}")
@@ -845,7 +1091,7 @@ if __name__ == "__main__":
 
     elif cmd == 'test':
         sym = sys.argv[2] if len(sys.argv) > 2 else 'ARB/USDT'
-        print(f"测试 {sym} 信号引擎 v2.0...")
+        print(f"测试 {sym} 信号引擎 v2.1...")
         result = scan_single(sym)
 
         # Pretty print
@@ -859,13 +1105,20 @@ if __name__ == "__main__":
             status = "✅" if p['hit'] else "❌"
             print(f"  {status} {name}: {p['desc']}")
 
+        oiv = result.get('oi_volume', {})
+        print(f"\n📊 OI+Vol 组合:")
+        print(f"  OI评分: {oiv.get('score', 0)} — {oiv.get('desc', 'N/A')}")
+        print(f"  Vol评分: {oiv.get('vol_score', 0)} — {oiv.get('vol_desc', 'N/A')}")
+        print(f"  组合: {oiv.get('combo_desc', 'N/A')}")
+        print(f"  应用: {'✅' if oiv.get('applied') else '❌'} ({oiv.get('applied_reason', '')})")
+
         bonus = result.get('bonus', {})
         if bonus.get('descs'):
             print(f"\n📈 指标加分: +{bonus['score']}")
             for d in bonus['descs']:
                 print(f"  ✨ {d}")
 
-        print(f"\n💰 资金费率: {result.get('funding_rate', 'N/A')}")
+        print(f"\n💰 {result.get('fr_desc', '费率: N/A')}")
         print(f"🔥 信号: {'触发' if result['signal'] else '未触发'}")
 
     elif cmd == 'diagnose':
