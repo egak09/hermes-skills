@@ -46,7 +46,7 @@ warnings.filterwarnings("ignore")
 STRATEGY_CONFIG = {
     "scan_interval_seconds": 180,  # 3 minutes
     "top_n_volume": 200,           # Top 200 by volume
-    "signal_threshold": 78,        # Minimum score to trigger
+    "signal_threshold": 68,        # Minimum score to trigger
     "funding_rate_max": 0.1,       # Max funding rate (10% = skip)
 
     # K-line lookback windows

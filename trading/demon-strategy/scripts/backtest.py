@@ -81,7 +81,8 @@ BACKTEST_CONFIG = {
     "fee_maker_pct": 0.0002,         # 0.02% maker fee
 
     # Signal
-    "signal_threshold": 78,          # Min score to trigger
+    "signal_threshold": 68,        # Minimum score to trigger
+    "confirmation_bars": 1,        # Wait 1 bar for direction confirmation
     "min_patterns": 2,               # Min pattern types for trigger
 }
 
@@ -254,6 +255,9 @@ class BacktestEngine:
         self.signal_checks = 0
         self.max_score_seen = 0
         self.max_score_at = "N/A"
+        self.pending_signal: Optional[Dict] = None  # {entry_idx, price, details}
+        self.confirmed_signals = 0
+        self.rejected_signals = 0
 
     # ── Signal Detection at a Point in Time ────────────────
 
@@ -513,11 +517,35 @@ class BacktestEngine:
                 self.equity_curve.append(self.capital)
                 continue
 
-            # Check signals
-            triggered, score, pattern_count, details = self._check_signals(i)
+            # ── Signal Detection with 1-bar Confirmation ──
+            # First: check pending signal from previous bar
+            if self.pending_signal is not None:
+                prev_idx = self.pending_signal["entry_idx"]
+                prev_close = self.data["close"][prev_idx]
+                cur_close = self.data["close"][i]
+                cur_open = self.data["open"][i]
 
-            if triggered:
-                self._open_position(i, details)
+                # Confirmation: current close > previous close (bullish continuation)
+                # AND current close > current open (bullish candle)
+                if cur_close > prev_close and cur_close > cur_open:
+                    # Confirmed! Open position at current close
+                    self._open_position(i, self.pending_signal["details"])
+                    self.confirmed_signals += 1
+                else:
+                    self.rejected_signals += 1
+
+                self.pending_signal = None  # Clear regardless
+
+            # Second: check for new signals (only if no pending was just processed)
+            if self.pending_signal is None:
+                triggered, score, pattern_count, details = self._check_signals(i)
+                if triggered:
+                    # Store as pending — will be confirmed next bar
+                    self.pending_signal = {
+                        "entry_idx": i,
+                        "price": self.data["close"][i],
+                        "details": details,
+                    }
 
             # Track equity
             unrealized = 0
@@ -660,6 +688,8 @@ class BacktestEngine:
                 "fill_rate_pct": round(self.entry_fills / max(self.signal_checks, 1) * 100, 2),
                 "max_score_seen": getattr(self, 'max_score_seen', 0),
                 "max_score_at": getattr(self, 'max_score_at', "N/A"),
+                "confirmed": getattr(self, 'confirmed_signals', 0),
+                "rejected": getattr(self, 'rejected_signals', 0),
             },
         }
 
