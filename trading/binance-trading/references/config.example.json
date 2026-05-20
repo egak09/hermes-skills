@@ -1,0 +1,11 @@
+{
+  "api_key": "YOUR_BINANCE_API_KEY",
+  "secret_key": "YOUR_BINANCE_SECRET_KEY",
+  "testnet": true,
+  "default_market": "future",
+  "kelly_required": true,
+  "proxy": {
+    "http": "http://127.0.0.1:1081",
+    "https": "http://127.0.0.1:1081"
+  }
+}

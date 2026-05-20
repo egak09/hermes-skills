@@ -1,0 +1,36 @@
+{
+  "name": "Paradigme",
+  "birth": {
+    "gregorian": "2001-04-16",
+    "time": "16:50",
+    "location": "青海省西宁市大通回族土族自治县",
+    "coordinates": {"lat": 36.9, "lon": 101.6},
+    "timezone": "UTC+8",
+    "gender": "男"
+  },
+  "bazi": {
+    "year_pillar": "辛巳",
+    "month_pillar": "壬辰",
+    "day_pillar": "己酉",
+    "hour_pillar": "壬申",
+    "day_master": "己",
+    "day_master_element": "土",
+    "day_master_yinyang": "阴"
+  },
+  "ziwei": {
+    "minggong": "午",
+    "shenggong": "官禄",
+    "wuxingju": "金四局",
+    "sihua": {
+      "化禄": "巨门",
+      "化权": "太阳",
+      "化科": "文曲",
+      "化忌": "文昌"
+    }
+  },
+  "western": {
+    "sun": "白羊",
+    "moon": "水瓶",
+    "ascendant": "白羊"
+  }
+}
