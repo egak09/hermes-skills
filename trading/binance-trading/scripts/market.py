@@ -30,10 +30,20 @@ def _get_exchange(config: dict = None) -> ccxt.Exchange:
         'apiKey': config.get('api_key', ''),
         'secret': config.get('secret_key', ''),
         'enableRateLimit': True,
-        'options': {
-            'defaultType': 'spot',
-        }
+        'timeout': 15000,
     }
+
+    # Proxy support (REQUIRED for this environment)
+    proxy = config.get('proxy')
+    if proxy:
+        exchange_config['proxies'] = {
+            'http': proxy.get('http', 'http://127.0.0.1:1081'),
+            'https': proxy.get('https', 'http://127.0.0.1:1081'),
+        }
+
+    # Market type
+    default_market = config.get('default_market', 'spot')
+    exchange_config['options'] = {'defaultType': default_market}
 
     # Use testnet if configured
     if config.get('testnet', False):
@@ -276,8 +286,8 @@ def market_overview(symbols: List[str] = None, config: dict = None) -> dict:
         overview.append({
             "symbol": sym.replace('/USDT', ''),
             "price": t.get('last'),
-            "change_24h": round(t.get('percentage', 0), 2),
-            "volume_m": round(t.get('quoteVolume', 0) / 1_000_000, 2) if t.get('quoteVolume') else 0,
+            "change_24h": round(t.get('percentage') or 0, 2),
+            "volume_m": round((t.get('quoteVolume') or 0) / 1_000_000, 2),
         })
 
     # Sort by volume

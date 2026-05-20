@@ -21,12 +21,24 @@ def _load_config() -> dict:
 def _get_exchange(config: dict = None) -> ccxt.Exchange:
     if config is None:
         config = _load_config()
-    return ccxt.binance({
+
+    exchange_config = {
         'apiKey': config.get('api_key', ''),
         'secret': config.get('secret_key', ''),
         'enableRateLimit': True,
-        'options': {'defaultType': 'spot'},
-    })
+        'timeout': 15000,
+        'options': {'defaultType': config.get('default_market', 'spot')},
+    }
+
+    # Proxy support
+    proxy = config.get('proxy')
+    if proxy:
+        exchange_config['proxies'] = {
+            'http': proxy.get('http', 'http://127.0.0.1:1081'),
+            'https': proxy.get('https', 'http://127.0.0.1:1081'),
+        }
+
+    return ccxt.binance(exchange_config)
 
 
 def get_balance(quote: str = 'USDT', config: dict = None) -> dict:

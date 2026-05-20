@@ -23,20 +23,18 @@ def _load_config() -> dict:
 def _get_exchange(config: dict = None) -> ccxt.Exchange:
     if config is None:
         config = _load_config()
-    exchange_config = {
+    ec = {
         'apiKey': config.get('api_key', ''),
         'secret': config.get('secret_key', ''),
         'enableRateLimit': True,
-        'options': {'defaultType': 'spot'},
+        'timeout': 15000,
+        'options': {'defaultType': config.get('default_market', 'spot')},
     }
+    if config.get('proxy'):
+        ec['proxies'] = config['proxy']
     if config.get('testnet', False):
-        exchange_config['urls'] = {
-            'api': {
-                'public': 'https://testnet.binance.vision/api/v3',
-                'private': 'https://testnet.binance.vision/api/v3',
-            }
-        }
-    return ccxt.binance(exchange_config)
+        ec['urls'] = {'api': {'public': 'https://testnet.binance.vision/api/v3', 'private': 'https://testnet.binance.vision/api/v3'}}
+    return ccxt.binance(ec)
 
 
 # ============================================================

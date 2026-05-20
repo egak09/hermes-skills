@@ -1,3 +1,6 @@
 # Binance API credentials — NEVER commit
 config.json
 trades.json
+# Python cache
+__pycache__/
+*.pyc
