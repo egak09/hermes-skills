@@ -8,7 +8,7 @@ dependencies:
   - ccxt
   - numpy
   - pandas
-  - ta
+  - ta  # see references/ta-library-notes.md for setup quirks
 ---
 
 # 妖币合约策略 v2.1 (Demon Strategy)
@@ -93,8 +93,35 @@ IF combo ≥ 55 AND has_price_breakout:
 | `signals.py` | 形态识别 + OI/Vol 组合 + 费率检测 ⭐ |
 | `risk.py` | 风控 + 仓位计算 🛡️ |
 | `executor.py` | 分批执行 + 追踪止损 ⚡ |
-| `notify.py` | 交易推送 + 日报 📢 |
+| `notify.py` | 6种Telegram通知模板 + Bot API发送 📢 |
 | `main.py` | 主控编排 🎯 |
+
+## 通知系统 (notify.py)
+
+6 种通知模板，通过 Telegram Bot API 发送：
+
+| 模板 | 触发时机 |
+|------|---------|
+| 🚀 开仓 | 全自动开仓时 |
+| ➕ 加仓 | 追加仓位时 |
+| ✅ 止盈 | 部分/全部止盈时 |
+| 🛑 止损 | 止损/全平时 |
+| 📊 日报 | 每日定时总结 |
+| 🚨 报警 | 异常立即推送 |
+
+**首次配置：**
+```bash
+# 设置通知 (只需一次)
+python notify.py setup <bot_token> <chat_id>
+
+# 测试
+python notify.py test
+
+# 查看状态
+python notify.py status
+```
+
+配置文件 `references/notify_config.json`（已 gitignore，不上传 GitHub）。
 
 ## 快速使用
 
