@@ -26,7 +26,7 @@
 | 03 | **Web3 Data** | BlockBeats API · 链上数据 · 内容自动化 | 情绪指标, 宏观, 热点狙击 |
 | 04 | **DevOps & Infra** | Windows 下 AI Agent 运维实战 | Junction, Proxy, Python环境分裂 |
 | 05 | **Systems Thinking** | 工程控制论 × AI Agent 设计模式 | 闭环验证, 冗余, 意图重建 |
-| 06 | **Esoteric × Trading** | 八字+紫微+星盘三合一交易辅助 | 己土日主, 周期能量 |
+| 06 | **Esoteric × Trading** | 三系统推演引擎的工程实现 | 八字算法, 紫微安星, 聚合引擎 |
 
 ## 🛠️ 技术栈
 
