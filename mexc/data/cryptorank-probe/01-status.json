@@ -3,11 +3,11 @@
   "rateLimitPerMinute": 10,
   "credits": {
     "dailyLimit": 400,
-    "dailyUsed": 3,
-    "dailyRemaining": 397,
+    "dailyUsed": 6,
+    "dailyRemaining": 394,
     "monthlyLimit": 10000,
-    "monthlyUsed": 3,
-    "monthlyRemaining": 9997
+    "monthlyUsed": 6,
+    "monthlyRemaining": 9994
   },
   "currentPeriodStart": "2026-09-12T08:54:56.926Z",
   "currentPeriodEnd": "2026-10-12T08:54:56.926Z",

@@ -1,0 +1,4 @@
+HTTP=522
+--- body (first 800 bytes) ---
+error code: 522
+

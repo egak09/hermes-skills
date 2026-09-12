@@ -1,0 +1,14 @@
+HTTP=200
+--- body (first 800 bytes) ---
+Title: 
+
+URL Source: https://api.binance.com/api/v3/ping
+
+Warning: Target URL returned error 451: Unavailable For Legal Reasons
+
+Markdown Content:
+{
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+
