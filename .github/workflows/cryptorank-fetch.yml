@@ -1,0 +1,46 @@
+name: cryptorank-fetch
+
+# 通过 Cloudflare Worker 代理抓取 CryptoRank 数据（runner 不受 GFW 限制）
+# 密钥存在 Worker 环境变量中，本仓库为公开仓库，故正文不含任何密钥
+on:
+  push:
+    paths:
+      - 'ci/**'
+      - '.github/workflows/cryptorank-fetch.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'   # 每天 UTC 02:00（北京时间 10:00）
+
+permissions:
+  contents: write
+
+env:
+  WORKER_URL: https://http-proxy.skyproxy2026.workers.dev
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 环境自检
+        run: |
+          echo "runner IP: $(curl -s https://api.ipify.org || echo unknown)"
+          jq --version
+          echo "worker health:"
+          curl -sS -m 30 "$WORKER_URL/" | head -40
+
+      - name: 探测 CryptoRank API
+        run: bash ci/cryptorank-probe.sh
+
+      - name: 提交结果
+        run: |
+          git config user.name "hermes-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A mexc/data/cryptorank-probe
+          if git diff --cached --quiet; then
+            echo "无变化"
+          else
+            git commit -m "data(cryptorank): probe results [skip ci]"
+            git push
+          fi
