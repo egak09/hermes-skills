@@ -1,0 +1,4722 @@
+{
+ "spot": [
+  {
+   "symbol": "CND",
+   "first_date": "2017-12-11T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Cindicator (CND)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GIFTO",
+   "first_date": "2017-12-11T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Gifto (GIFTO) Token Sale Events",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "WABI",
+   "first_date": "2017-12-12T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Wabi (WABI)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LEND",
+   "first_date": "2017-12-12T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists December Community Coin - ETHLend (LEND)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WAVES",
+   "first_date": "2017-12-15T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Waves (WAVES)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TNB",
+   "first_date": "2017-12-15T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Time New Bank (TNB)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ICX",
+   "first_date": "2017-12-18T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists ICON (ICX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BRD",
+   "first_date": "2017-12-18T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Bread (BRD) Token Sale Events",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "OST",
+   "first_date": "2017-12-19T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Simple Token (OST)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ELF",
+   "first_date": "2017-12-21T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists ælf (ELF)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AION",
+   "first_date": "2017-12-21T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Aion (AION)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NEBL",
+   "first_date": "2017-12-22T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Neblio (NEBL)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "EDO",
+   "first_date": "2017-12-25T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Eidoo (EDO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WINGS",
+   "first_date": "2017-12-26T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Wings (WINGS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NAV",
+   "first_date": "2017-12-27T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists NAV Coin (NAV)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LUN",
+   "first_date": "2017-12-28T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Lunyr (LUN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TRIG",
+   "first_date": "2017-12-29T00:00:00",
+   "quarter": "2017Q4",
+   "year": "2017",
+   "ym": "2017-12",
+   "title": "Binance Lists Triggers (TRIG)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "APPC",
+   "first_date": "2018-01-05T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-01",
+   "title": "Binance Lists AppCoins (APPC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VIBE",
+   "first_date": "2018-01-10T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-01",
+   "title": "Binance Lists VIBE (VIBE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RLC",
+   "first_date": "2018-01-12T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-01",
+   "title": "Binance Lists iExec RLC (RLC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "INS",
+   "first_date": "2018-01-15T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-01",
+   "title": "Binance Lists INS Ecosystem (INS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PIVX",
+   "first_date": "2018-01-23T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-01",
+   "title": "Binance Lists PIVX (PIVX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "IOST",
+   "first_date": "2018-01-24T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-01",
+   "title": "Binance Lists IOStoken (IOST)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CHAT",
+   "first_date": "2018-01-31T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-01",
+   "title": "Binance Lists ChatCoin (CHAT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "STEEM",
+   "first_date": "2018-02-01T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists Steem (STEEM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NANO",
+   "first_date": "2018-02-02T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists Nano (NANO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VIA",
+   "first_date": "2018-02-05T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists Viacoin (VIA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BLZ",
+   "first_date": "2018-02-06T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists Bluzelle (BLZ)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AE",
+   "first_date": "2018-02-07T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists Aeternity (AE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RPX",
+   "first_date": "2018-02-12T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists Red Pulse (RPX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NCASH",
+   "first_date": "2018-02-26T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists Nucleus Vision (NCASH)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "POA",
+   "first_date": "2018-02-28T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-02",
+   "title": "Binance Lists POA Network (POA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ZIL",
+   "first_date": "2018-03-05T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists Round 6 Community Coin Winner - Zilliqa (ZIL)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ONT",
+   "first_date": "2018-03-08T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists Ontology (ONT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "STORM",
+   "first_date": "2018-03-12T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists Storm (STORM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "XEM",
+   "first_date": "2018-03-20T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists NEM (XEM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WAN",
+   "first_date": "2018-03-23T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists Wancoin (WAN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "QLC",
+   "first_date": "2018-03-26T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists Qlink (QLC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SYS",
+   "first_date": "2018-03-28T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists Syscoin (SYS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WPR",
+   "first_date": "2018-03-29T00:00:00",
+   "quarter": "2018Q1",
+   "year": "2018",
+   "ym": "2018-03",
+   "title": "Binance Lists WePower (WPR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GRS",
+   "first_date": "2018-04-04T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-04",
+   "title": "Binance Lists Groestlcoin (GRS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CLOAK",
+   "first_date": "2018-04-18T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-04",
+   "title": "Binance Lists CloakCoin (CLOAK)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GNT",
+   "first_date": "2018-04-27T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-04",
+   "title": "Binance Lists Golem (GNT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LOOM",
+   "first_date": "2018-05-02T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Lists Loom Network (LOOM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BCN",
+   "first_date": "2018-05-08T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Lists Bytecoin (BCN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "REP",
+   "first_date": "2018-05-11T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Lists Augur (REP)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TUSD",
+   "first_date": "2018-05-16T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Will List TrueUSD (TUSD) on 2018/05/18",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ZEN",
+   "first_date": "2018-05-23T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Lists ZenCash (ZEN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SKY",
+   "first_date": "2018-05-23T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Will List Skycoin (SKY) on 2018/05/24",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CVC",
+   "first_date": "2018-05-28T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Lists Civic (CVC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "THETA",
+   "first_date": "2018-05-29T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-05",
+   "title": "Binance Lists Theta Token (THETA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "IOTX",
+   "first_date": "2018-06-01T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists IoTeX (IOTX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "QKC",
+   "first_date": "2018-06-04T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists QuarkChain (QKC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AGI",
+   "first_date": "2018-06-05T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists SingularityNET (AGI)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NXS",
+   "first_date": "2018-06-06T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists Nexus (NXS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DATA",
+   "first_date": "2018-06-08T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists Streamr (DATA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SC",
+   "first_date": "2018-06-14T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists Siacoin (SC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NPXS",
+   "first_date": "2018-06-20T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists Community Coin Round 7 Winner - Pundi X (NPXS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "KEY",
+   "first_date": "2018-06-27T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Lists SelfKey (KEY)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NAS",
+   "first_date": "2018-06-27T00:00:00",
+   "quarter": "2018Q2",
+   "year": "2018",
+   "ym": "2018-06",
+   "title": "Binance Will List Nebulas (NAS) on 2018/06/28",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MFT",
+   "first_date": "2018-07-05T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-07",
+   "title": "Binance Lists Mainframe (MFT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DENT",
+   "first_date": "2018-07-06T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-07",
+   "title": "Binance Lists Dent (DENT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ARDR",
+   "first_date": "2018-07-18T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-07",
+   "title": "Binance Lists Ardor (ARDR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HOT",
+   "first_date": "2018-07-23T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-07",
+   "title": "Binance Will List Holo (HOT) on 2018/07/24",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DOCK",
+   "first_date": "2018-07-30T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-07",
+   "title": "Binance Lists Dock (DOCK)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "POLY",
+   "first_date": "2018-07-31T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-07",
+   "title": "Binance Lists Community Coin Round 8 Winner - Polymath (POLY)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GO",
+   "first_date": "2018-09-11T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-09",
+   "title": "Binance Will List GoChain (GO) on 2018/09/12",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PAX",
+   "first_date": "2018-09-21T00:00:00",
+   "quarter": "2018Q3",
+   "year": "2018",
+   "ym": "2018-09",
+   "title": "Binance Will List Paxos Standard Token (PAX) and Opens Deposits",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RVN",
+   "first_date": "2018-10-11T00:00:00",
+   "quarter": "2018Q4",
+   "year": "2018",
+   "ym": "2018-10",
+   "title": "Binance Will List Ravencoin (RVN) on 2018/10/12",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DCR",
+   "first_date": "2018-10-23T00:00:00",
+   "quarter": "2018Q4",
+   "year": "2018",
+   "ym": "2018-10",
+   "title": "Binance Will List Decred (DCR) on 2018/10/24",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MITH",
+   "first_date": "2018-11-15T00:00:00",
+   "quarter": "2018Q4",
+   "year": "2018",
+   "ym": "2018-11",
+   "title": "Binance Lists Mithril (MITH)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "REN",
+   "first_date": "2018-12-06T00:00:00",
+   "quarter": "2018Q4",
+   "year": "2018",
+   "ym": "2018-12",
+   "title": "Binance Lists Republic Protocol (REN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BTT",
+   "first_date": "2019-01-30T00:00:00",
+   "quarter": "2019Q1",
+   "year": "2019",
+   "ym": "2019-01",
+   "title": "Binance Lists BitTorrent (BTT) and Completes Distribution for Successful Launchpad Participants and Additional Airdrop",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "USDS",
+   "first_date": "2019-02-01T00:00:00",
+   "quarter": "2019Q1",
+   "year": "2019",
+   "ym": "2019-02",
+   "title": "Binance Will List StableUSD (USDS) on 2019/02/06",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ONG",
+   "first_date": "2019-02-15T00:00:00",
+   "quarter": "2019Q1",
+   "year": "2019",
+   "ym": "2019-02",
+   "title": "Binance Will List Ontology Gas (ONG)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FET",
+   "first_date": "2019-02-27T00:00:00",
+   "quarter": "2019Q1",
+   "year": "2019",
+   "ym": "2019-02",
+   "title": "Binance Lists Fetch.AI (FET) and Completes Distribution for Successful Launchpad Participants",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "CELR",
+   "first_date": "2019-03-23T00:00:00",
+   "quarter": "2019Q1",
+   "year": "2019",
+   "ym": "2019-03",
+   "title": "Binance Lists Celer Token (CELR) and Completes Distribution of CELR",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ATOM",
+   "first_date": "2019-04-28T00:00:00",
+   "quarter": "2019Q2",
+   "year": "2019",
+   "ym": "2019-04",
+   "title": "Binance Will List Cosmos (ATOM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TFUEL",
+   "first_date": "2019-05-24T00:00:00",
+   "quarter": "2019Q2",
+   "year": "2019",
+   "ym": "2019-05",
+   "title": "Binance Will List Theta Fuel (TFUEL)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FTM",
+   "first_date": "2019-06-10T00:00:00",
+   "quarter": "2019Q2",
+   "year": "2019",
+   "ym": "2019-06",
+   "title": "Binance Will List Fantom (FTM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BTCB",
+   "first_date": "2019-06-18T00:00:00",
+   "quarter": "2019Q2",
+   "year": "2019",
+   "ym": "2019-06",
+   "title": "Binance Will List Bitcoin BEP2 (BTCB)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ALGO",
+   "first_date": "2019-06-21T00:00:00",
+   "quarter": "2019Q2",
+   "year": "2019",
+   "ym": "2019-06",
+   "title": "Binance Will List Algorand (ALGO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DOGE",
+   "first_date": "2019-07-05T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-07",
+   "title": "Binance Will List Dogecoin (DOGE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DUSK",
+   "first_date": "2019-07-22T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-07",
+   "title": "Binance Will List Dusk Network (DUSK)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BGBP",
+   "first_date": "2019-07-22T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-07",
+   "title": "Binance Will List Binance GBP Stable Coin (BGBP)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ANKR",
+   "first_date": "2019-07-23T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-07",
+   "title": "Binance Lists First BEP2 Community Listing Project - Ankr (ANKR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "COS",
+   "first_date": "2019-08-02T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-08",
+   "title": "Binance Will List Contentos (COS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TUSDB",
+   "first_date": "2019-08-08T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-08",
+   "title": "Binance Will List BEP2 TrueUSD (TUSDB)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "COCOS",
+   "first_date": "2019-08-20T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-08",
+   "title": "Binance Will List Cocos-BCX (COCOS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TOMO",
+   "first_date": "2019-08-23T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-08",
+   "title": "Binance Lists Second BEP2 Community Listing Project - TomoChain (TOMO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CHZ",
+   "first_date": "2019-09-05T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-09",
+   "title": "Binance Lists Chiliz (CHZ)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BEAM",
+   "first_date": "2019-09-20T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-09",
+   "title": "Binance Lists Beam (BEAM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "XTZ",
+   "first_date": "2019-09-23T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-09",
+   "title": "Binance Lists Tezos (XTZ)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HBAR",
+   "first_date": "2019-09-27T00:00:00",
+   "quarter": "2019Q3",
+   "year": "2019",
+   "ym": "2019-09",
+   "title": "Binance Lists Hedera Hashgraph (HBAR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "STX",
+   "first_date": "2019-10-23T00:00:00",
+   "quarter": "2019Q4",
+   "year": "2019",
+   "ym": "2019-10",
+   "title": "Binance Lists Blockstack (STX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OGN",
+   "first_date": "2020-01-07T00:00:00",
+   "quarter": "2020Q1",
+   "year": "2020",
+   "ym": "2020-01",
+   "title": "Binance Lists Origin Protocol (OGN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BKRW",
+   "first_date": "2020-03-31T00:00:00",
+   "quarter": "2020Q1",
+   "year": "2020",
+   "ym": "2020-03",
+   "title": "Binance Lists Binance KRW Stable Coin (BKRW)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "IDRT",
+   "first_date": "2020-04-16T00:00:00",
+   "quarter": "2020Q2",
+   "year": "2020",
+   "ym": "2020-04",
+   "title": "Binance Will List Rupiah Token (IDRT) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HIVE",
+   "first_date": "2020-04-27T00:00:00",
+   "quarter": "2020Q2",
+   "year": "2020",
+   "ym": "2020-04",
+   "title": "Binance Will List Hive (HIVE) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BIDR",
+   "first_date": "2020-06-01T00:00:00",
+   "quarter": "2020Q2",
+   "year": "2020",
+   "ym": "2020-06",
+   "title": "Binance Lists Binance IDR Stable Coin (BIDR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "IQ",
+   "first_date": "2020-06-18T00:00:00",
+   "quarter": "2020Q2",
+   "year": "2020",
+   "ym": "2020-06",
+   "title": "Binance Will List Everipedia (IQ) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DGB",
+   "first_date": "2020-06-22T00:00:00",
+   "quarter": "2020Q2",
+   "year": "2020",
+   "ym": "2020-06",
+   "title": "Binance Lists DigiByte (DGB) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "COMP",
+   "first_date": "2020-06-25T00:00:00",
+   "quarter": "2020Q2",
+   "year": "2020",
+   "ym": "2020-06",
+   "title": "Binance Lists Compound (COMP) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SNX",
+   "first_date": "2020-07-09T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-07",
+   "title": "Binance Lists Synthetix (SNX) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VTHO",
+   "first_date": "2020-07-17T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-07",
+   "title": "Binance Lists VeThor Token (VTHO) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "IRIS",
+   "first_date": "2020-07-21T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-07",
+   "title": "Binance Lists IRISnet (IRIS) ",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MKR",
+   "first_date": "2020-07-23T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-07",
+   "title": "Binance Lists Maker (MKR) & Dai (DAI)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DAI",
+   "first_date": "2020-07-23T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-07",
+   "title": "Binance Lists Maker (MKR) & Dai (DAI)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RUNE",
+   "first_date": "2020-07-24T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-07",
+   "title": "Binance Lists THORChain (RUNE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FIO",
+   "first_date": "2020-07-31T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-07",
+   "title": "Binance Lists FIO Protocol (FIO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AVA",
+   "first_date": "2020-08-05T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Travala (AVA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BAL",
+   "first_date": "2020-08-06T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Balancer (BAL)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "YFI",
+   "first_date": "2020-08-10T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists yearn.finance (YFI)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "JST",
+   "first_date": "2020-08-11T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists JUST (JST)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SRM",
+   "first_date": "2020-08-11T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Serum (SRM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ANT",
+   "first_date": "2020-08-13T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Aragon (ANT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CRV",
+   "first_date": "2020-08-14T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Will List Curve (CRV), Deposits Now Open",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OCEAN",
+   "first_date": "2020-08-17T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Ocean Protocol (OCEAN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NMR",
+   "first_date": "2020-08-17T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Numeraire (NMR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DOT",
+   "first_date": "2020-08-18T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Will List Polkadot (DOT) & Support 1:100 Redenomination Plan",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LUNA",
+   "first_date": "2020-08-19T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Terra (LUNA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "IDEX",
+   "first_date": "2020-08-22T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists IDEX (IDEX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RSR",
+   "first_date": "2020-08-25T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Reserve Rights (RSR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PAXG",
+   "first_date": "2020-08-25T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists PAX Gold (PAXG)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WNXM",
+   "first_date": "2020-08-26T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Wrapped NXM (WNXM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TRB",
+   "first_date": "2020-08-27T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Tellor (TRB)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BZRX",
+   "first_date": "2020-08-29T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists bZx Protocol (BZRX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WBTC",
+   "first_date": "2020-08-31T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-08",
+   "title": "Binance Lists Wrapped BTC (WBTC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SUSHI",
+   "first_date": "2020-09-01T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Sushi (SUSHI) and DFI.Money (YFII)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "YFII",
+   "first_date": "2020-09-01T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Sushi (SUSHI) and DFI.Money (YFII)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "KSM",
+   "first_date": "2020-09-02T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Kusama (KSM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DIA",
+   "first_date": "2020-09-02T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists DIA (DIA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "UMA",
+   "first_date": "2020-09-09T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists UMA (UMA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SWRV",
+   "first_date": "2020-09-15T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Swerve (SWRV)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CREAM",
+   "first_date": "2020-09-16T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Cream Finance (CREAM)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "UNI",
+   "first_date": "2020-09-17T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Uniswap (UNI)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OXT",
+   "first_date": "2020-09-21T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Orchid (OXT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AVAX",
+   "first_date": "2020-09-22T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Avalanche (AVAX), Deposits Are Now Open",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HNT",
+   "first_date": "2020-09-24T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Helium (HNT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ORN",
+   "first_date": "2020-09-30T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "ym": "2020-09",
+   "title": "Binance Lists Orion Protocol (ORN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "UTK",
+   "first_date": "2020-10-02T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Lists UTRUST (UTK)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VIDT",
+   "first_date": "2020-10-09T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Lists VIDT Datalink (VIDT) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NEAR",
+   "first_date": "2020-10-14T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Lists NEAR Protocol (NEAR), Deposits Are Now Open",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FIL",
+   "first_date": "2020-10-15T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Will List Filecoin (FIL) - Deposit FIL to Share a $100,000 Prize Pool",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AERGO",
+   "first_date": "2020-10-21T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Lists Aergo (AERGO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CTK",
+   "first_date": "2020-10-22T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Introducing CertiK (CTK) on Binance Launchpool! Farm CTK By Staking BNB, BUSD & CTK Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "EASY",
+   "first_date": "2020-10-23T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Will List EasyFi (EASY) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AUDIO",
+   "first_date": "2020-10-23T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Lists Audius (AUDIO), Deposits Are Now Open",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BOT",
+   "first_date": "2020-10-29T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-10",
+   "title": "Binance Will List Bounce (BOT) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AKRO",
+   "first_date": "2020-11-02T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List Akropolis (AKRO) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HARD",
+   "first_date": "2020-11-02T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Introducing Hard Protocol (HARD) on Binance Launchpool! Farm HARD By Staking BNB, BUSD & KAVA Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "KP3R",
+   "first_date": "2020-11-03T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List Keep3rV1 (KP3R) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RENBTC",
+   "first_date": "2020-11-09T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Lists renBTC (RENBTC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SLP",
+   "first_date": "2020-11-10T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List Axie Infinity's Small Love Potion (SLP) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "UNFI",
+   "first_date": "2020-11-13T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Introducing Unifi Protocol DAO (UNFI) on Binance Launchpool! Farm UNFI By Staking BNB, BUSD & ETH Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "CVP",
+   "first_date": "2020-11-16T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List PowerPool (CVP) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FOR",
+   "first_date": "2020-11-17T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List The Force Protocol (FOR) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FRONT",
+   "first_date": "2020-11-18T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List Frontier (FRONT) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ROSE",
+   "first_date": "2020-11-19T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Lists Oasis Network (ROSE), Deposits Are Now Open",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HEGIC",
+   "first_date": "2020-11-25T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List Hegic (HEGIC) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PROM",
+   "first_date": "2020-11-26T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List Prometeus (PROM) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SKL",
+   "first_date": "2020-11-30T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-11",
+   "title": "Binance Will List SKALE Network (SKL)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SUSD",
+   "first_date": "2020-12-04T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-12",
+   "title": "Binance Will List sUSD (SUSD) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "COVER",
+   "first_date": "2020-12-05T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-12",
+   "title": "Binance Will List COVER Protocol (COVER) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GHST",
+   "first_date": "2020-12-08T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-12",
+   "title": "Binance Will List Aavegotchi (GHST) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DF",
+   "first_date": "2020-12-11T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-12",
+   "title": "Binance Will List dForce (DF) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GRT",
+   "first_date": "2020-12-17T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-12",
+   "title": "Binance Will List The Graph (GRT), Deposits Are Now Open",
+   "cat": "spot"
+  },
+  {
+   "symbol": "REEF",
+   "first_date": "2020-12-22T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-12",
+   "title": "Introducing Reef Finance (REEF) on Binance Launchpool! Farm REEF By Staking BNB, BUSD & DOT Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "1INCH",
+   "first_date": "2020-12-25T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "ym": "2020-12",
+   "title": "Binance Will List 1inch (1INCH) in the Innovation Zone, Deposits Are Now Open",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CELO",
+   "first_date": "2021-01-05T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Binance Will List Celo (CELO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RIF",
+   "first_date": "2021-01-07T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Binance Will List RSK Infrastructure Framework (RIF)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BTCST",
+   "first_date": "2021-01-07T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Introducing Bitcoin Standard Hashrate Token (BTCST) on Binance Launchpool! Farm BTCST By Staking BNB, BUSD & BTC Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "TRU",
+   "first_date": "2021-01-19T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Binance Will List TrueFi (TRU) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DEXE",
+   "first_date": "2021-01-21T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Binance Will List DeXe (DEXE) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CKB",
+   "first_date": "2021-01-26T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Binance Will List Nervos Network (CKB)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TWT",
+   "first_date": "2021-01-27T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Binance Will List Trust Wallet Token (TWT) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LIT",
+   "first_date": "2021-01-28T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-01",
+   "title": "Introducing Litentry (LIT) on Binance Launchpool! Farm LIT By Staking BNB, BUSD & DOT Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SFP",
+   "first_date": "2021-02-01T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Introducing the SafePal (SFP) Token Sale With a New Binance Launchpad Subscription Format!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PROS",
+   "first_date": "2021-02-03T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Binance Will List Prosper (PROS) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VAI",
+   "first_date": "2021-02-04T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Binance Will List Vai (VAI) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FXS",
+   "first_date": "2021-02-18T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Binance Will List Frax Share (FXS) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DODO",
+   "first_date": "2021-02-18T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Introducing DODO (DODO) on Binance Launchpool! Farm DODO By Staking BNB, BETH & BUSD Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "UFT",
+   "first_date": "2021-02-23T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Binance Will List UniLend (UFT) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ACM",
+   "first_date": "2021-02-24T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Binance Will List AC Milan Fan Token (ACM). Purchase ACM Tokens with BNB at a 25% Discount Prior to Trading Using the Launchpad Subscription Format!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PHA",
+   "first_date": "2021-02-25T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Binance Will List Phala Network (PHA) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TVK",
+   "first_date": "2021-02-26T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-02",
+   "title": "Binance Will List Terra Virtua (TVK) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BADGER",
+   "first_date": "2021-03-02T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Badger DAO (BADGER) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FIS",
+   "first_date": "2021-03-03T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Stafi (FIS) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OM",
+   "first_date": "2021-03-08T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List MANTRA DAO (OM) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "POND",
+   "first_date": "2021-03-09T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Marlin (POND) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ALICE",
+   "first_date": "2021-03-09T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Introducing My Neighbor Alice (ALICE) on Binance Launchpool! Farm ALICE By Staking BNB, BUSD & CHR Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "DEGO",
+   "first_date": "2021-03-10T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Dego Finance (DEGO) in the Innovation Zone. Purchase DEGO Tokens with BNB at a 40% Discount Prior to Trading Using the Launchpad Subscription Format!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BIFI",
+   "first_date": "2021-03-16T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Beefy.Finance (BIFI) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LINA",
+   "first_date": "2021-03-18T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Linear (LINA) in the Innovation Zone. Purchase LINA Tokens with BNB at a 30% Discount Prior to Trading Using the Launchpad Subscription Format!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PERP",
+   "first_date": "2021-03-19T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Perpetual Protocol (PERP) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RAMP",
+   "first_date": "2021-03-22T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List RAMP (RAMP) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SUPER",
+   "first_date": "2021-03-25T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List SuperFarm (SUPER) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CFX",
+   "first_date": "2021-03-29T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Binance Will List Conflux Network (CFX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TKO",
+   "first_date": "2021-03-30T00:00:00",
+   "quarter": "2021Q1",
+   "year": "2021",
+   "ym": "2021-03",
+   "title": "Introducing the Tokocrypto (TKO) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "EPS",
+   "first_date": "2021-04-02T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-04",
+   "title": "Binance Will List Ellipsis (EPS) and Auto (AUTO) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AUTO",
+   "first_date": "2021-04-02T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-04",
+   "title": "Binance Will List Ellipsis (EPS) and Auto (AUTO) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TLM",
+   "first_date": "2021-04-06T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-04",
+   "title": "Introducing Alien Worlds (TLM) on Binance Launchpool! Farm TLM By Staking BNB & BUSD Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MIR",
+   "first_date": "2021-04-19T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-04",
+   "title": "Binance Will List Mirror Protocol (MIR) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BAR",
+   "first_date": "2021-04-21T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-04",
+   "title": "Binance Will List FC Barcelona Fan Token (BAR) in the Innovation Zone. Purchase BAR Tokens with BNB at a 30% Discount Prior to Trading Using the Launchpad Subscription Format!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "FORTH",
+   "first_date": "2021-04-23T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-04",
+   "title": "Binance Will List Ampleforth Governance Token (FORTH)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SHIB",
+   "first_date": "2021-05-10T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-05",
+   "title": "Binance Will List SHIBA INU (SHIB) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ICP",
+   "first_date": "2021-05-10T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-05",
+   "title": "Binance Will List Internet Computer (ICP)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AR",
+   "first_date": "2021-05-14T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-05",
+   "title": "Binance Will List Arweave (AR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "POLS",
+   "first_date": "2021-05-19T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-05",
+   "title": "Binance Will List Polkastarter (POLS) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MDX",
+   "first_date": "2021-05-24T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-05",
+   "title": "Binance Will List Mdex (MDX) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MASK",
+   "first_date": "2021-05-25T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-05",
+   "title": "Binance Will List Mask Network (MASK)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LPT",
+   "first_date": "2021-05-28T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-05",
+   "title": "Binance Will List Livepeer (LPT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ATA",
+   "first_date": "2021-06-01T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-06",
+   "title": "Introducing Automata (ATA) on Binance Launchpool! Farm ATA By Staking BNB, BUSD & DOT Tokens",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "NU",
+   "first_date": "2021-06-04T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-06",
+   "title": "Binance Will List NuCypher (NU)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GTC",
+   "first_date": "2021-06-10T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-06",
+   "title": "Binance Will List Gitcoin (GTC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TORN",
+   "first_date": "2021-06-11T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-06",
+   "title": "Binance Will List Tornado Cash (TORN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "KEEP",
+   "first_date": "2021-06-17T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-06",
+   "title": "Binance Will List Keep Network (KEEP)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ERN",
+   "first_date": "2021-06-22T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-06",
+   "title": "Binance Will List Ethernity Chain (ERN) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "KLAY",
+   "first_date": "2021-06-24T00:00:00",
+   "quarter": "2021Q2",
+   "year": "2021",
+   "ym": "2021-06",
+   "title": "Binance Will List Klaytn (KLAY)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BOND",
+   "first_date": "2021-07-05T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-07",
+   "title": "Binance Will List BarnBridge (BOND) and Enzyme  (MLN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MLN",
+   "first_date": "2021-07-05T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-07",
+   "title": "Binance Will List BarnBridge (BOND) and Enzyme  (MLN)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "C98",
+   "first_date": "2021-07-15T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-07",
+   "title": "Introducing the Coin98 (C98) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "QUICK",
+   "first_date": "2021-07-23T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-07",
+   "title": "Binance Will List QuickSwap (QUICK) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CLV",
+   "first_date": "2021-07-29T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-07",
+   "title": "Binance Will List Clover Finance (CLV) and Quant (QNT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "QNT",
+   "first_date": "2021-07-29T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-07",
+   "title": "Binance Will List Clover Finance (CLV) and Quant (QNT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FLOW",
+   "first_date": "2021-07-30T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-07",
+   "title": "Binance Will List Flow (FLOW)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MINA",
+   "first_date": "2021-08-10T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List Mina (MINA) and Raydium (RAY) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RAY",
+   "first_date": "2021-08-10T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List Mina (MINA) and Raydium (RAY) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ALPACA",
+   "first_date": "2021-08-11T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List Alpaca Finance (ALPACA) and Harvest Finance (FARM) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FARM",
+   "first_date": "2021-08-11T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List Alpaca Finance (ALPACA) and Harvest Finance (FARM) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MBOX",
+   "first_date": "2021-08-19T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List MOBOX (MBOX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WAXP",
+   "first_date": "2021-08-23T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List WAX (WAXP)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TRIBE",
+   "first_date": "2021-08-24T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List Tribe (TRIBE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GNO",
+   "first_date": "2021-08-30T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-08",
+   "title": "Binance Will List Gnosis (GNO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DYDX",
+   "first_date": "2021-09-08T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-09",
+   "title": "Binance Will List dYdX (DYDX) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GALA",
+   "first_date": "2021-09-13T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-09",
+   "title": "Binance Will List Gala (GALA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ILV",
+   "first_date": "2021-09-22T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-09",
+   "title": "Binance Will List Illuvium (ILV)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "YGG",
+   "first_date": "2021-09-24T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-09",
+   "title": "Binance Will List Yield Guild Games (YGG)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BETA",
+   "first_date": "2021-09-29T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-09",
+   "title": "Introducing the Beta Finance (BETA) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "FIDA",
+   "first_date": "2021-09-30T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "ym": "2021-09",
+   "title": "Binance Will List Bonfida (FIDA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AGLD",
+   "first_date": "2021-10-05T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-10",
+   "title": "Binance Will List Adventure Gold (AGLD) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RAD",
+   "first_date": "2021-10-07T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-10",
+   "title": "Binance Will List Radicle (RAD)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RARE",
+   "first_date": "2021-10-11T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-10",
+   "title": "Binance Will List SuperRare (RARE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LAZIO",
+   "first_date": "2021-10-13T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-10",
+   "title": "Introducing the Lazio Fan Token (LAZIO) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "CHESS",
+   "first_date": "2021-10-22T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-10",
+   "title": "Binance Will List Tranchess (CHESS) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DAR",
+   "first_date": "2021-10-28T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-10",
+   "title": "Introducing Mines of Dalarnia (DAR) on Binance Launchpool! Farm DAR By Staking BNB and BUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BNX",
+   "first_date": "2021-11-04T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List BinaryX (BNX) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RGT",
+   "first_date": "2021-11-05T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Rari Governance Token (RGT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PORTO",
+   "first_date": "2021-11-05T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Introducing the FC Porto Fan Token (PORTO) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MOVR",
+   "first_date": "2021-11-08T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Moonriver (MOVR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CITY",
+   "first_date": "2021-11-10T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Manchester City Fan Token (CITY)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ENS",
+   "first_date": "2021-11-10T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Ethereum Name Service (ENS)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "QI",
+   "first_date": "2021-11-15T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List BENQI (QI)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "JASMY",
+   "first_date": "2021-11-22T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List JasmyCoin (JASMY)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AMP",
+   "first_date": "2021-11-23T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Amp (AMP) and PlayDapp (PLA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PLA",
+   "first_date": "2021-11-23T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Amp (AMP) and PlayDapp (PLA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PYR",
+   "first_date": "2021-11-26T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Vulcan Forged PYR (PYR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SANTOS",
+   "first_date": "2021-11-26T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Introducing Santos FC Fan Token (SANTOS) on Binance Launchpool! Farm SANTOS By Staking BNB and BUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "RNDR",
+   "first_date": "2021-11-27T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Render (RNDR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ALCX",
+   "first_date": "2021-11-30T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-11",
+   "title": "Binance Will List Alchemix (ALCX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MC",
+   "first_date": "2021-12-02T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Merit Circle (MC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ANY",
+   "first_date": "2021-12-04T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Anyswap (ANY)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VOXEL",
+   "first_date": "2021-12-06T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Introducing the Voxies (VOXEL) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BICO",
+   "first_date": "2021-12-09T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Biconomy (BICO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FLUX",
+   "first_date": "2021-12-10T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Flux (FLUX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HIGH",
+   "first_date": "2021-12-17T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Highstreet (HIGH)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CVX",
+   "first_date": "2021-12-23T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Convex Finance (CVX) and ConstitutionDAO (PEOPLE) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PEOPLE",
+   "first_date": "2021-12-23T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Convex Finance (CVX) and ConstitutionDAO (PEOPLE) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SPELL",
+   "first_date": "2021-12-24T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Spell Token (SPELL) and TerraUSD (UST)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "UST",
+   "first_date": "2021-12-24T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List Spell Token (SPELL) and TerraUSD (UST)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "JOE",
+   "first_date": "2021-12-28T00:00:00",
+   "quarter": "2021Q4",
+   "year": "2021",
+   "ym": "2021-12",
+   "title": "Binance Will List JOE (JOE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ACH",
+   "first_date": "2022-01-10T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-01",
+   "title": "Binance Will List Alchemy Pay (ACH) and Immutable X (IMX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "IMX",
+   "first_date": "2022-01-10T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-01",
+   "title": "Binance Will List Alchemy Pay (ACH) and Immutable X (IMX)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GLMR",
+   "first_date": "2022-01-11T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-01",
+   "title": "Binance Will List Glimmer (GLMR)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LOKA",
+   "first_date": "2022-01-11T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-01",
+   "title": "Introducing the League of Kingdoms (LOKA) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "API3",
+   "first_date": "2022-01-21T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-01",
+   "title": "Binance Will List API3 (API3)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ACA",
+   "first_date": "2022-01-25T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-01",
+   "title": "Binance Will List Acala (ACA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ANC",
+   "first_date": "2022-01-25T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-01",
+   "title": "Binance Will List Anchor Protocol (ANC)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WOO",
+   "first_date": "2022-02-08T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-02",
+   "title": "Binance Will List WOO Network (WOO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ALPINE",
+   "first_date": "2022-02-15T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-02",
+   "title": "Introducing the Alpine F1® Team Fan Token (ALPINE) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ASTR",
+   "first_date": "2022-02-28T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-02",
+   "title": "Binance Will List Astar (ASTR) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GMT",
+   "first_date": "2022-03-01T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-03",
+   "title": "Introducing the STEPN (GMT) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "KDA",
+   "first_date": "2022-03-11T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-03",
+   "title": "Binance Will List Kadena (KDA)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "APE",
+   "first_date": "2022-03-17T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-03",
+   "title": "Binance Will List ApeCoin (APE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BSW",
+   "first_date": "2022-03-21T00:00:00",
+   "quarter": "2022Q1",
+   "year": "2022",
+   "ym": "2022-03",
+   "title": "Binance Will List Biswap (BSW) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GAL",
+   "first_date": "2022-04-28T00:00:00",
+   "quarter": "2022Q2",
+   "year": "2022",
+   "ym": "2022-04",
+   "title": "Introducing Project Galaxy (GAL) on Binance Launchpool! Farm GAL By Staking BNB, BUSD and CAKE",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MOB",
+   "first_date": "2022-04-29T00:00:00",
+   "quarter": "2022Q2",
+   "year": "2022",
+   "ym": "2022-04",
+   "title": "Binance Will List MobileCoin (MOB) and Nexo (NEXO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NEXO",
+   "first_date": "2022-04-29T00:00:00",
+   "quarter": "2022Q2",
+   "year": "2022",
+   "ym": "2022-04",
+   "title": "Binance Will List MobileCoin (MOB) and Nexo (NEXO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LDO",
+   "first_date": "2022-05-09T00:00:00",
+   "quarter": "2022Q2",
+   "year": "2022",
+   "ym": "2022-05",
+   "title": "Binance Will List Lido DAO (LDO)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OP",
+   "first_date": "2022-06-01T00:00:00",
+   "quarter": "2022Q2",
+   "year": "2022",
+   "ym": "2022-06",
+   "title": "Binance Will List Optimism (OP)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "STG",
+   "first_date": "2022-08-19T00:00:00",
+   "quarter": "2022Q3",
+   "year": "2022",
+   "ym": "2022-08",
+   "title": "Binance Will List Stargate (STG) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GMX",
+   "first_date": "2022-10-05T00:00:00",
+   "quarter": "2022Q4",
+   "year": "2022",
+   "ym": "2022-10",
+   "title": "Binance Will List GMX (GMX) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "APT",
+   "first_date": "2022-10-18T00:00:00",
+   "quarter": "2022Q4",
+   "year": "2022",
+   "ym": "2022-10",
+   "title": "Binance Will List Aptos (APT)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OSMO",
+   "first_date": "2022-10-28T00:00:00",
+   "quarter": "2022Q4",
+   "year": "2022",
+   "ym": "2022-10",
+   "title": "Binance Will List Osmosis (OSMO) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HFT",
+   "first_date": "2022-10-31T00:00:00",
+   "quarter": "2022Q4",
+   "year": "2022",
+   "ym": "2022-10",
+   "title": "Introducing Hashflow (HFT) on Binance Launchpool! Farm HFT by Staking BNB and BUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "HOOK",
+   "first_date": "2022-11-23T00:00:00",
+   "quarter": "2022Q4",
+   "year": "2022",
+   "ym": "2022-11",
+   "title": "Introducing the Hooked Protocol (HOOK) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MAGIC",
+   "first_date": "2022-12-12T00:00:00",
+   "quarter": "2022Q4",
+   "year": "2022",
+   "ym": "2022-12",
+   "title": "Binance Will List Magic (MAGIC) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RPL",
+   "first_date": "2023-01-18T00:00:00",
+   "quarter": "2023Q1",
+   "year": "2023",
+   "ym": "2023-01",
+   "title": "Binance Will List Rocket Pool (RPL) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GNS",
+   "first_date": "2023-02-17T00:00:00",
+   "quarter": "2023Q1",
+   "year": "2023",
+   "ym": "2023-02",
+   "title": "Binance Will List Gains Network (GNS) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SYN",
+   "first_date": "2023-02-22T00:00:00",
+   "quarter": "2023Q1",
+   "year": "2023",
+   "ym": "2023-02",
+   "title": "Binance Will List Synapse (SYN) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LQTY",
+   "first_date": "2023-02-28T00:00:00",
+   "quarter": "2023Q1",
+   "year": "2023",
+   "ym": "2023-02",
+   "title": "Binance Will List Liquity (LQTY) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ID",
+   "first_date": "2023-03-16T00:00:00",
+   "quarter": "2023Q1",
+   "year": "2023",
+   "ym": "2023-03",
+   "title": "Introducing the Space ID (ID) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ARB",
+   "first_date": "2023-03-20T00:00:00",
+   "quarter": "2023Q1",
+   "year": "2023",
+   "ym": "2023-03",
+   "title": "Binance Will List Arbitrum (ARB)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RDNT",
+   "first_date": "2023-03-30T00:00:00",
+   "quarter": "2023Q1",
+   "year": "2023",
+   "ym": "2023-03",
+   "title": "Binance Will List Radiant Capital (RDNT) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "EDU",
+   "first_date": "2023-04-21T00:00:00",
+   "quarter": "2023Q2",
+   "year": "2023",
+   "ym": "2023-04",
+   "title": "Introducing the Open Campus (EDU) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SUI",
+   "first_date": "2023-04-30T00:00:00",
+   "quarter": "2023Q2",
+   "year": "2023",
+   "ym": "2023-04",
+   "title": "Introducing Sui (SUI) on Binance Launchpool! Farm SUI by Staking BNB and TUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "FLOKI",
+   "first_date": "2023-05-05T00:00:00",
+   "quarter": "2023Q2",
+   "year": "2023",
+   "ym": "2023-05",
+   "title": "Binance Will List FLOKI (FLOKI) and Pepe (PEPE) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PEPE",
+   "first_date": "2023-05-05T00:00:00",
+   "quarter": "2023Q2",
+   "year": "2023",
+   "ym": "2023-05",
+   "title": "Binance Will List FLOKI (FLOKI) and Pepe (PEPE) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MAV",
+   "first_date": "2023-06-13T00:00:00",
+   "quarter": "2023Q2",
+   "year": "2023",
+   "ym": "2023-06",
+   "title": "Introducing Maverick Protocol (MAV) on Binance Launchpool! Farm MAV by Staking BNB and TUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PENDLE",
+   "first_date": "2023-07-03T00:00:00",
+   "quarter": "2023Q3",
+   "year": "2023",
+   "ym": "2023-07",
+   "title": "Binance Will List Pendle (PENDLE) in the Innovation Zone",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ARKM",
+   "first_date": "2023-07-10T00:00:00",
+   "quarter": "2023Q3",
+   "year": "2023",
+   "ym": "2023-07",
+   "title": "Introducing the Arkham (ARKM) Token Sale on Binance Launchpad!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "WLD",
+   "first_date": "2023-07-24T00:00:00",
+   "quarter": "2023Q3",
+   "year": "2023",
+   "ym": "2023-07",
+   "title": "Binance Will List Worldcoin (WLD)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SEI",
+   "first_date": "2023-08-01T00:00:00",
+   "quarter": "2023Q3",
+   "year": "2023",
+   "ym": "2023-08",
+   "title": "Introducing Sei (SEI) on Binance Launchpool! Farm SEI by Staking BNB, TUSD and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "CYBER",
+   "first_date": "2023-08-01T00:00:00",
+   "quarter": "2023Q3",
+   "year": "2023",
+   "ym": "2023-08",
+   "title": "Introducing CyberConnect (CYBER) on Binance Launchpool! Farm CYBER by Staking BNB, TUSD and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "NTRN",
+   "first_date": "2023-10-10T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-10",
+   "title": "Binance Will List Neutron (NTRN) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MEME",
+   "first_date": "2023-10-27T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-10",
+   "title": "Introducing Memecoin (MEME) on Binance Launchpool! Farm MEME by Staking BNB, TUSD and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "TIA",
+   "first_date": "2023-10-30T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-10",
+   "title": "Binance Will List Celestia (TIA) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ORDI",
+   "first_date": "2023-11-07T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-11",
+   "title": "Binance Will List ORDI (ORDI) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BLUR",
+   "first_date": "2023-11-24T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-11",
+   "title": "Binance Will List Blur (BLUR) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AEUR",
+   "first_date": "2023-12-04T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-12",
+   "title": "Binance Will List Anchored Coins EUR (AEUR) and Introduce AEUR Zero Trading Fee Promotions",
+   "cat": "spot"
+  },
+  {
+   "symbol": "JTO",
+   "first_date": "2023-12-07T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-12",
+   "title": "Binance Will List Jito (JTO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ACE",
+   "first_date": "2023-12-11T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-12",
+   "title": "Introducing Fusionist (ACE) on Binance Launchpool! Farm ACE by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "1000SATS",
+   "first_date": "2023-12-12T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-12",
+   "title": "Binance Will List BRC-20 Sats (1000SATS) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BONK",
+   "first_date": "2023-12-15T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-12",
+   "title": "Binance Will List Bonk (BONK) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NFP",
+   "first_date": "2023-12-19T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-12",
+   "title": "Introducing NFPrompt (NFP) on Binance Launchpool Fair Mode! Farm NFP by Staking BNB, FDUSD and TUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "AI",
+   "first_date": "2023-12-26T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "ym": "2023-12",
+   "title": "Introducing Sleepless AI (AI) on Binance Launchpool! Farm AI by Staking BNB, FDUSD and TUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "XAI",
+   "first_date": "2024-01-03T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-01",
+   "title": "Introducing Xai (XAI) on Binance Launchpool! Farm XAI by Staking BNB, FDUSD and TUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MANTA",
+   "first_date": "2024-01-15T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-01",
+   "title": "Introducing Manta (MANTA) on Binance Launchpool! Farm MANTA by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ALT",
+   "first_date": "2024-01-17T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-01",
+   "title": "Introducing AltLayer (ALT) on Binance Launchpool! Farm ALT by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "JUP",
+   "first_date": "2024-01-31T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-01",
+   "title": "Binance Will List Jupiter (JUP) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PYTH",
+   "first_date": "2024-02-02T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-02",
+   "title": "Binance Will List Pyth Network (PYTH) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "RONIN",
+   "first_date": "2024-02-05T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-02",
+   "title": "Binance Will List Ronin (RONIN) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DYM",
+   "first_date": "2024-02-06T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-02",
+   "title": "Binance Will List Dymension (DYM) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PIXEL",
+   "first_date": "2024-02-08T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-02",
+   "title": "Introducing Pixels (PIXEL) on Binance Launchpool! Farm PIXEL by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "STRK",
+   "first_date": "2024-02-20T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-02",
+   "title": "Binance Will List Starknet (STRK) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PORTAL",
+   "first_date": "2024-02-21T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-02",
+   "title": "Introducing Portal (PORTAL) on Binance Launchpool! Farm PORTAL by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "AXL",
+   "first_date": "2024-03-01T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-03",
+   "title": "Binance Will List Axelar (AXL) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WIF",
+   "first_date": "2024-03-05T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-03",
+   "title": "Binance Will List Dogwifhat (WIF) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AEVO",
+   "first_date": "2024-03-06T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-03",
+   "title": "Introducing AEVO (AEVO) on Binance Launchpool! Farm AEVO by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "METIS",
+   "first_date": "2024-03-11T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-03",
+   "title": "Binance Will List Metis (METIS) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ETHFI",
+   "first_date": "2024-03-12T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-03",
+   "title": "Introducing ether.fi (ETHFI) on Binance Launchpool! Farm ETHFI by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BOME",
+   "first_date": "2024-03-16T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-03",
+   "title": "Binance Will List BOOK OF MEME (BOME) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ENA",
+   "first_date": "2024-03-29T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "ym": "2024-03",
+   "title": "Introducing Ethena (ENA) on Binance Launchpool! Farm ENA by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SAGA",
+   "first_date": "2024-04-04T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-04",
+   "title": "Introducing Saga (SAGA) on Binance Launchpool! Farm SAGA by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "TNSR",
+   "first_date": "2024-04-08T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-04",
+   "title": "Binance Will List Tensor (TNSR) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TAO",
+   "first_date": "2024-04-11T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-04",
+   "title": "Binance Will List Bittensor (TAO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OMNI",
+   "first_date": "2024-04-12T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-04",
+   "title": "Introducing Omni Network (OMNI) on Binance Launchpool! Farm OMNI by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "REZ",
+   "first_date": "2024-04-23T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-04",
+   "title": "Introducing Renzo (REZ) on Binance Launchpool! Farm REZ by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BB",
+   "first_date": "2024-04-25T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-04",
+   "title": "BounceBit (BB) Megadrop Is Now Open: Subscribe to BNB Locked Products or Complete Web3 Quests to Participate!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "NOT",
+   "first_date": "2024-05-09T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-05",
+   "title": "Introducing Notcoin (NOT) on Binance Launchpool! Farm NOT by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "LISTA",
+   "first_date": "2024-05-23T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-05",
+   "title": "Introducing Lista (LISTA) on Binance Megadrop! Lock Your BNB and Complete Web3 Quests for Airdrop",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "IO",
+   "first_date": "2024-06-06T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-06",
+   "title": "Introducing IO.NET (IO) on Binance Launchpool! Farm IO by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ZK",
+   "first_date": "2024-06-17T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-06",
+   "title": "Binance Will List ZKsync (ZK) with ZK Token Distribution Program",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ZRO",
+   "first_date": "2024-06-20T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "ym": "2024-06",
+   "title": "Binance Will List LayerZero (ZRO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BANANA",
+   "first_date": "2024-07-18T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-07",
+   "title": "Introducing Banana Gun (BANANA) on Binance HODLer Airdrops! Subscribe your BNB to Simple Earn",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "RENDER",
+   "first_date": "2024-07-26T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-07",
+   "title": "Binance Adds Render (RENDER) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "TON",
+   "first_date": "2024-08-08T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-08",
+   "title": "Binance Will List Toncoin (TON) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DOGS",
+   "first_date": "2024-08-20T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-08",
+   "title": "Introducing Dogs (DOGS) on Binance Launchpool! Farm DOGS by Staking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "EURI",
+   "first_date": "2024-08-26T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-08",
+   "title": "Binance Will List Eurite (EURI) and Introduce EURI Zero Trading Fee Promotions",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SLF",
+   "first_date": "2024-08-30T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-08",
+   "title": "Binance Adds Self Chain (SLF) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "HMSTR",
+   "first_date": "2024-09-12T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-09",
+   "title": "Introducing Hamster Kombat (HMSTR) on Binance Launchpool and Super Earn!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "POL",
+   "first_date": "2024-09-13T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-09",
+   "title": "Binance Will Add Polygon (POL) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "CATI",
+   "first_date": "2024-09-13T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-09",
+   "title": "Introducing Catizen (CATI) on Binance Launchpool! Farm CATI by Locking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "NEIRO",
+   "first_date": "2024-09-16T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-09",
+   "title": "Binance Will List First Neiro on Ethereum (NEIRO), Turbo (TURBO), and Baby Doge Coin (1MBABYDOGE) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TURBO",
+   "first_date": "2024-09-16T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-09",
+   "title": "Binance Will List First Neiro on Ethereum (NEIRO), Turbo (TURBO), and Baby Doge Coin (1MBABYDOGE) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "1MBABYDOGE",
+   "first_date": "2024-09-16T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-09",
+   "title": "Binance Will List First Neiro on Ethereum (NEIRO), Turbo (TURBO), and Baby Doge Coin (1MBABYDOGE) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "EIGEN",
+   "first_date": "2024-09-30T00:00:00",
+   "quarter": "2024Q3",
+   "year": "2024",
+   "ym": "2024-09",
+   "title": "Binance Will List EigenLayer (EIGEN) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SCR",
+   "first_date": "2024-10-08T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-10",
+   "title": "Introducing Scroll (SCR) on Binance Launchpool and Pre-Market!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BNSOL",
+   "first_date": "2024-10-09T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-10",
+   "title": "Binance Will List Binance Staked SOL (BNSOL) and Introduce BNSOL Boosted APR Promotion",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LUMIA",
+   "first_date": "2024-10-18T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-10",
+   "title": "Binance Will Add Lumia (LUMIA) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "KAIA",
+   "first_date": "2024-10-31T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-10",
+   "title": "Binance Will Add Kaia (KAIA) on Earn, Buy Crypto, Convert, and Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "COW",
+   "first_date": "2024-11-06T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-11",
+   "title": "Binance Will List Cow Protocol (COW) and Cetus Protocol (CETUS) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CETUS",
+   "first_date": "2024-11-06T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-11",
+   "title": "Binance Will List Cow Protocol (COW) and Cetus Protocol (CETUS) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ACT",
+   "first_date": "2024-11-11T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-11",
+   "title": "Binance Will List Act I : The AI Prophecy (ACT) and Peanut the Squirrel (PNUT) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "PNUT",
+   "first_date": "2024-11-11T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-11",
+   "title": "Binance Will List Act I : The AI Prophecy (ACT) and Peanut the Squirrel (PNUT) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "USUAL",
+   "first_date": "2024-11-14T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-11",
+   "title": "Introducing Usual (USUAL) on Binance Launchpool and Pre-Market!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "THE",
+   "first_date": "2024-11-26T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-11",
+   "title": "Introducing Thena (THE) on Binance HODLer Airdrops! Subscribe your BNB to Simple Earn",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ACX",
+   "first_date": "2024-12-06T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Binance Will List Across Protocol (ACX) and Orca (ORCA) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ORCA",
+   "first_date": "2024-12-06T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Binance Will List Across Protocol (ACX) and Orca (ORCA) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MOVE",
+   "first_date": "2024-12-09T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Introducing Movement (MOVE) on Binance HODLer Airdrops! Subscribe your BNB to Simple Earn",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ME",
+   "first_date": "2024-12-10T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Binance Will List Magic Eden (ME) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VELODROME",
+   "first_date": "2024-12-13T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Binance Will List Velodrome Finance (VELODROME) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "VANA",
+   "first_date": "2024-12-13T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Introducing Vana (VANA) on Binance Launchpool! Farm VANA by Locking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "1000CAT",
+   "first_date": "2024-12-16T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Introducing Simon's Cat (1000CAT) and Pudgy Penguins (PENGU) on Binance HODLer Airdrops!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PENGU",
+   "first_date": "2024-12-16T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Introducing Simon's Cat (1000CAT) and Pudgy Penguins (PENGU) on Binance HODLer Airdrops!",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BIO",
+   "first_date": "2024-12-23T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Introducing BIO Protocol (BIO) on Binance Launchpool! Farm BIO by Locking BNB and FDUSD",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SOLV",
+   "first_date": "2024-12-30T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "ym": "2024-12",
+   "title": "Introducing Solv Protocol (SOLV) on Binance Megadrop! Lock Your BNB and Complete Web3 Quests for Airdrop",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "AIXBT",
+   "first_date": "2025-01-10T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-01",
+   "title": "Binance Will List aixbt by Virtuals (AIXBT), ChainGPT(CGPT), Cookie DAO(COOKIE) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CGPT",
+   "first_date": "2025-01-10T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-01",
+   "title": "Binance Will List aixbt by Virtuals (AIXBT), ChainGPT(CGPT), Cookie DAO(COOKIE) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "COOKIE",
+   "first_date": "2025-01-10T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-01",
+   "title": "Binance Will List aixbt by Virtuals (AIXBT), ChainGPT(CGPT), Cookie DAO(COOKIE) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TRUMP",
+   "first_date": "2025-01-19T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-01",
+   "title": "Binance Will List OFFICIAL TRUMP (TRUMP) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ANIME",
+   "first_date": "2025-01-22T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-01",
+   "title": "Introducing Animecoin (ANIME) on Binance HODLer Airdrops! Earn ANIME With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BERA",
+   "first_date": "2025-02-05T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Introducing Berachain (BERA) on Binance HODLer Airdrops! Earn BERA With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "1000CHEEMS",
+   "first_date": "2025-02-09T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Binance Will List Cheems (1000CHEEMS) and Test (TST) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "TST",
+   "first_date": "2025-02-09T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Binance Will List Cheems (1000CHEEMS) and Test (TST) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "LAYER",
+   "first_date": "2025-02-11T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Introducing Solayer (LAYER) on Binance HODLer Airdrops! Subscribe your BNB to Simple Earn",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "HEI",
+   "first_date": "2025-02-13T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Binance Will Add Heima (HEI) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "KAITO",
+   "first_date": "2025-02-19T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Introducing KAITO (KAITO) on Binance HODLer Airdrops! Earn KAITO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "RED",
+   "first_date": "2025-02-25T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Introducing RedStone (RED) on Binance Launchpool and Price Cap Mechanism for Binance Pre-Market",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SHELL",
+   "first_date": "2025-02-27T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-02",
+   "title": "Introducing MyShell (SHELL) on Binance HODLer Airdrops! Earn SHELL With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "GPS",
+   "first_date": "2025-03-04T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Introducing GoPlus Security (GPS) on Binance HODLer Airdrops! Earn GPS With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "EPIC",
+   "first_date": "2025-03-13T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Binance Will Add Epic Chain (EPIC) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "XUSD",
+   "first_date": "2025-03-17T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Binance Will List StraitsX USD (XUSD) and Introduce XUSD Zero Trading Fee Promotion",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BMT",
+   "first_date": "2025-03-18T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Introducing Bubblemaps (BMT) on Binance HODLer Airdrops! Earn BMT With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "FORM",
+   "first_date": "2025-03-19T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Binance Will Add StraitsX USD (XUSD) and Four (FORM) on Earn, Buy Crypto, Margin, Convert & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "NIL",
+   "first_date": "2025-03-20T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Introducing Nillion (NIL) on Binance Launchpool! Farm NIL by Locking BNB, FDUSD, and USDC",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PARTI",
+   "first_date": "2025-03-24T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Introducing  Particle Network (PARTI) on Binance HODLer Airdrops! Earn PARTI With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "GUN",
+   "first_date": "2025-03-27T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Introducing GUNZ (GUN) on Binance Launchpool! Farm GUN by Locking BNB, FDUSD and USDC",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MUBARAK",
+   "first_date": "2025-03-28T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Binance Adds Mubarak (MUBARAK), CZ'S Dog (BROCCOLI714), Tutorial (TUT), and Banana For Scale (BANANAS31) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "BROCCOLI714",
+   "first_date": "2025-03-28T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Binance Adds Mubarak (MUBARAK), CZ'S Dog (BROCCOLI714), Tutorial (TUT), and Banana For Scale (BANANAS31) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "TUT",
+   "first_date": "2025-03-28T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Binance Adds Mubarak (MUBARAK), CZ'S Dog (BROCCOLI714), Tutorial (TUT), and Banana For Scale (BANANAS31) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "BANANAS31",
+   "first_date": "2025-03-28T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "ym": "2025-03",
+   "title": "Binance Adds Mubarak (MUBARAK), CZ'S Dog (BROCCOLI714), Tutorial (TUT), and Banana For Scale (BANANAS31) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "KERNEL",
+   "first_date": "2025-04-01T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Introducing KernelDAO (KERNEL) on Binance Megadrop! Lock Your BNB and Complete Web3 Quests for Airdrop",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BABY",
+   "first_date": "2025-04-09T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Introducing Babylon (BABY) on Binance HODLer Airdrops! Earn BABY With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "WCT",
+   "first_date": "2025-04-10T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Introducing WalletConnect (WCT) on Binance Launchpool! Farm WCT by Locking BNB, FDUSD and USDC",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ONDO",
+   "first_date": "2025-04-11T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Binance Adds Ondo (ONDO), Big Time (BIGTIME), and Virtuals Protocol (VIRTUAL) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "BIGTIME",
+   "first_date": "2025-04-11T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Binance Adds Ondo (ONDO), Big Time (BIGTIME), and Virtuals Protocol (VIRTUAL) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "VIRTUAL",
+   "first_date": "2025-04-11T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Binance Adds Ondo (ONDO), Big Time (BIGTIME), and Virtuals Protocol (VIRTUAL) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "INIT",
+   "first_date": "2025-04-17T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Introducing Initia (INIT) on Binance Launchpool! Farm INIT by Locking BNB, FDUSD and USDC",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "HYPER",
+   "first_date": "2025-04-21T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Introducing Hyperlane (HYPER) on Binance HODLer Airdrops! Earn HYPER With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SIGN",
+   "first_date": "2025-04-25T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-04",
+   "title": "Introducing Sign (SIGN) on Binance HODLer Airdrops! Earn SIGN With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "STO",
+   "first_date": "2025-05-02T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Introducing StakeStone (STO) on Binance HODLer Airdrops! Earn STO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SXT",
+   "first_date": "2025-05-05T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Introducing Space and Time (SXT) on Binance Launchpool! Farm SXT by Locking BNB, FDUSD and USDC",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SYRUP",
+   "first_date": "2025-05-06T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Binance Will List Maple Finance (SYRUP) and Kamino Finance (KMNO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "KMNO",
+   "first_date": "2025-05-06T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Binance Will List Maple Finance (SYRUP) and Kamino Finance (KMNO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DOOD",
+   "first_date": "2025-05-09T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Doodles (DOOD) Will Open for Trading on Binance Alpha and Binance Futures",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NXPC",
+   "first_date": "2025-05-15T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Introducing Nexpace (NXPC) on Binance HODLer Airdrops! Earn NXPC With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "AWE",
+   "first_date": "2025-05-21T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Binance Will Add AWE Network (AWE) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "HAEDAL",
+   "first_date": "2025-05-21T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Introducing Haedal Protocol (HAEDAL) on Binance HODLer Airdrops! Earn HAEDAL With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "USD1",
+   "first_date": "2025-05-22T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Binance Will List World Liberty Financial USD (USD1)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HUMA",
+   "first_date": "2025-05-22T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Introducing Huma Finance (HUMA) on Binance Launchpool! Farm HUMA by Locking BNB, FDUSD, and USDC",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SOPH",
+   "first_date": "2025-05-28T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-05",
+   "title": "Introducing Sophon (SOPH) on Binance HODLer Airdrops! Earn SOPH With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "RESOLV",
+   "first_date": "2025-06-11T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-06",
+   "title": "Introducing Resolv (RESOLV) on Binance HODLer Airdrops! Earn RESOLV With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "HOME",
+   "first_date": "2025-06-12T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-06",
+   "title": "Introducing Defi App (HOME) on Binance HODLer Airdrops! Earn HOME With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SPK",
+   "first_date": "2025-06-16T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-06",
+   "title": "Introducing Spark (SPK) on Binance HODLer Airdrops! Earn SPK With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "NEWT",
+   "first_date": "2025-06-23T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-06",
+   "title": "Introducing Newton Protocol (NEWT) on Binance HODLer Airdrops! Earn NEWT With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SAHARA",
+   "first_date": "2025-06-24T00:00:00",
+   "quarter": "2025Q2",
+   "year": "2025",
+   "ym": "2025-06",
+   "title": "Introducing Sahara AI (SAHARA) on Binance HODLer Airdrops! Earn SAHARA With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "LA",
+   "first_date": "2025-07-09T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-07",
+   "title": "Introducing Lagrange (LA) on Binance HODLer Airdrops! Earn LA With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ERA",
+   "first_date": "2025-07-16T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-07",
+   "title": "Introducing Caldera (ERA) on Binance HODLer Airdrops! Earn ERA With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "TREE",
+   "first_date": "2025-07-28T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-07",
+   "title": "Introducing Treehouse (TREE) on Binance HODLer Airdrops! Earn TREE With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "A2Z",
+   "first_date": "2025-07-30T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-07",
+   "title": "Binance Will Add Arena-Z (A2Z) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "TOWNS",
+   "first_date": "2025-08-04T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-08",
+   "title": "Introducing Towns (TOWNS) on Binance HODLer Airdrops! Earn TOWNS With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PROVE",
+   "first_date": "2025-08-05T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-08",
+   "title": "Introducing Succinct (PROVE) on Binance HODLer Airdrops! Earn PROVE With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PLUME",
+   "first_date": "2025-08-18T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-08",
+   "title": "Introducing Plume (PLUME) on Binance HODLer Airdrops! Earn PLUME With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "DOLO",
+   "first_date": "2025-08-27T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-08",
+   "title": "Introducing Dolomite (DOLO) on Binance HODLer Airdrops! Earn DOLO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MITO",
+   "first_date": "2025-08-29T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-08",
+   "title": "Introducing Mitosis (MITO) on Binance HODLer Airdrops! Earn MITO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "WLFI",
+   "first_date": "2025-09-01T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Binance Will List  World Liberty Financial (WLFI) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SOMI",
+   "first_date": "2025-09-01T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Somnia (SOMI) on Binance HODLer Airdrops! Earn SOMI With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "OPEN",
+   "first_date": "2025-09-05T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing OpenLedger (OPEN) on Binance HODLer Airdrops! Earn OPEN With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "LINEA",
+   "first_date": "2025-09-08T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Linea (LINEA) on Binance HODLer Airdrops! Earn LINEA With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "USDE",
+   "first_date": "2025-09-09T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Binance Will List Ethena USDe (USDE)",
+   "cat": "spot"
+  },
+  {
+   "symbol": "HOLO",
+   "first_date": "2025-09-10T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Holoworld AI (HOLO) on Binance HODLer Airdrops! Earn HOLO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "PUMP",
+   "first_date": "2025-09-11T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Binance Will List Pump.fun (PUMP) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ZKC",
+   "first_date": "2025-09-12T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Boundless (ZKC) on Binance HODLer Airdrops! Earn ZKC With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "AVNT",
+   "first_date": "2025-09-15T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Binance Will List Avantis (AVNT) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "BARD",
+   "first_date": "2025-09-17T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Lombard (BARD) on Binance HODLer Airdrops! Earn BARD With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "0G",
+   "first_date": "2025-09-21T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing 0G (0G) on Binance HODLer Airdrops! Earn 0G With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "HEMI",
+   "first_date": "2025-09-23T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Hemi (HEMI) on Binance HODLer Airdrops! Earn HEMI With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "XPL",
+   "first_date": "2025-09-24T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Plasma (XPL) on Binance HODLer Airdrops! Earn XPL With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MIRA",
+   "first_date": "2025-09-25T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Mira (MIRA) on Binance HODLer Airdrops! Earn MIRA With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "FF",
+   "first_date": "2025-09-26T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing Falcon Finance (FF) on Binance HODLer Airdrops! Earn FF With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "EDEN",
+   "first_date": "2025-09-29T00:00:00",
+   "quarter": "2025Q3",
+   "year": "2025",
+   "ym": "2025-09",
+   "title": "Introducing OpenEden (EDEN) on Binance HODLer Airdrops! Earn EDEN With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "NOM",
+   "first_date": "2025-10-01T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Binance Will Add Nomina (NOM) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "2Z",
+   "first_date": "2025-10-02T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing DoubleZero (2Z) on Binance HODLer Airdrops! Earn 2Z With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MORPHO",
+   "first_date": "2025-10-03T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing Morpho (MORPHO) on Binance HODLer Airdrops! Earn MORPHO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ASTER",
+   "first_date": "2025-10-06T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Binance Will List Aster (ASTER) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "WAL",
+   "first_date": "2025-10-10T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing Walrus (WAL) on Binance HODLer Airdrops! Earn WAL With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "EUL",
+   "first_date": "2025-10-13T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing Euler (EUL) on Binance HODLer Airdrops! Earn EUL With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ENSO",
+   "first_date": "2025-10-14T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing Enso (ENSO) on Binance HODLer Airdrops! Earn ENSO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "YB",
+   "first_date": "2025-10-14T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing Yield Basis (YB) on Binance HODLer Airdrops! Earn YB With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ZBT",
+   "first_date": "2025-10-17T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing ZEROBASE (ZBT) on Binance HODLer Airdrops! Earn ZBT With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "TURTLE",
+   "first_date": "2025-10-21T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing Turtle (TURTLE) on Binance HODLer Airdrops! Earn TURTLE With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "GIGGLE",
+   "first_date": "2025-10-25T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Binance Will Add Giggle Fund (GIGGLE) and SynFutures (F) on Earn, Buy Crypto, Convert & Margin",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "KITE",
+   "first_date": "2025-10-31T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-10",
+   "title": "Introducing Kite (KITE) on Binance Launchpool! Farm KITE by Locking BNB, FDUSD and USDC",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MMT",
+   "first_date": "2025-11-03T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-11",
+   "title": "Introducing Momentum (MMT) on Binance HODLer Airdrops! Earn MMT With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "SAPIEN",
+   "first_date": "2025-11-06T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-11",
+   "title": "Introducing Sapien (SAPIEN) on Binance HODLer Airdrops! Earn SAPIEN With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ALLO",
+   "first_date": "2025-11-11T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-11",
+   "title": "Introducing Allora (ALLO) on Binance HODLer Airdrops! Earn ALLO With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "BANK",
+   "first_date": "2025-11-13T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-11",
+   "title": "Binance Will List Lorenzo Protocol (BANK) and Meteora (MET) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MET",
+   "first_date": "2025-11-13T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-11",
+   "title": "Binance Will List Lorenzo Protocol (BANK) and Meteora (MET) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AT",
+   "first_date": "2025-11-27T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-11",
+   "title": "Introducing APRO (AT) on Binance HODLer Airdrops! Earn AT With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "KGST",
+   "first_date": "2025-12-24T00:00:00",
+   "quarter": "2025Q4",
+   "year": "2025",
+   "ym": "2025-12",
+   "title": "Binance Will Add KGST (KGST) on Earn, Buy Crypto & Convert",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "BREV",
+   "first_date": "2026-01-05T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-01",
+   "title": "Introducing Brevis (BREV) on Binance HODLer Airdrops! Earn BREV With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "ZKP",
+   "first_date": "2026-01-07T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-01",
+   "title": "Binance Will List 币安人生 (币安人生) and zkPass (ZKP) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FOGO",
+   "first_date": "2026-01-12T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-01",
+   "title": "Binance Will List Fogo (FOGO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "FRAX",
+   "first_date": "2026-01-15T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-01",
+   "title": "Binance Will Add Frax (FRAX) on Earn, Buy Crypto, Convert, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "RLUSD",
+   "first_date": "2026-01-21T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-01",
+   "title": "Binance Will List Ripple USD (RLUSD) and Introduce RLUSD Zero Trading Fee Promotion",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SENT",
+   "first_date": "2026-01-22T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-01",
+   "title": "Binance Will List Sentient (SENT) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ZAMA",
+   "first_date": "2026-02-02T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-02",
+   "title": "Binance Will List Zama (ZAMA) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "ESP",
+   "first_date": "2026-02-12T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-02",
+   "title": "Binance Will List Espresso (ESP) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OPN",
+   "first_date": "2026-03-02T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-03",
+   "title": "Introducing Opinion (OPN) on Binance Launchpool! Farm OPN by Locking BNB, USDC, U, and USD1",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "MANTRA",
+   "first_date": "2026-03-04T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-03",
+   "title": "Binance Will Add MANTRA (MANTRA) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "ROBO",
+   "first_date": "2026-03-04T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-03",
+   "title": "Binance Will List Fabric Protocol (ROBO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "NIGHT",
+   "first_date": "2026-03-11T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-03",
+   "title": "Introducing Midnight (NIGHT) on Binance HODLer Airdrops! Earn NIGHT With Retroactive BNB Simple Earn Subscriptions",
+   "cat": "launch_event"
+  },
+  {
+   "symbol": "KAT",
+   "first_date": "2026-03-13T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-03",
+   "title": "Binance Will List Katana (KAT) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CFG",
+   "first_date": "2026-03-16T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-03",
+   "title": "Binance Will List Centrifuge (CFG) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "XAUT",
+   "first_date": "2026-03-26T00:00:00",
+   "quarter": "2026Q1",
+   "year": "2026",
+   "ym": "2026-03",
+   "title": "Binance Will Add Tether Gold (XAUT) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "CHIP",
+   "first_date": "2026-04-21T00:00:00",
+   "quarter": "2026Q2",
+   "year": "2026",
+   "ym": "2026-04",
+   "title": "Binance Will List Chip (CHIP) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "MEGA",
+   "first_date": "2026-04-30T00:00:00",
+   "quarter": "2026Q2",
+   "year": "2026",
+   "ym": "2026-04",
+   "title": "Binance Will List MegaETH (MEGA) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "AIGENSYN",
+   "first_date": "2026-05-14T00:00:00",
+   "quarter": "2026Q2",
+   "year": "2026",
+   "ym": "2026-05",
+   "title": "Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GENIUS",
+   "first_date": "2026-05-22T00:00:00",
+   "quarter": "2026Q2",
+   "year": "2026",
+   "ym": "2026-05",
+   "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "OPG",
+   "first_date": "2026-05-22T00:00:00",
+   "quarter": "2026Q2",
+   "year": "2026",
+   "ym": "2026-05",
+   "title": "Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "SPCXB",
+   "first_date": "2026-06-12T00:00:00",
+   "quarter": "2026Q2",
+   "year": "2026",
+   "ym": "2026-06",
+   "title": "Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12",
+   "cat": "spot_legacy"
+  },
+  {
+   "symbol": "RE",
+   "first_date": "2026-06-18T00:00:00",
+   "quarter": "2026Q2",
+   "year": "2026",
+   "ym": "2026-06",
+   "title": "Binance Will List Re (RE) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "GRAM",
+   "first_date": "2026-07-02T00:00:00",
+   "quarter": "2026Q3",
+   "year": "2026",
+   "ym": "2026-07",
+   "title": "Binance Will Add Gram (GRAM) on Earn, Buy Crypto, Convert, VIP Loan, Margin & Futures",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "SKHYB",
+   "first_date": "2026-07-13T00:00:00",
+   "quarter": "2026Q3",
+   "year": "2026",
+   "ym": "2026-07",
+   "title": "Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13",
+   "cat": "spot_legacy"
+  },
+  {
+   "symbol": "AERO",
+   "first_date": "2026-07-17T00:00:00",
+   "quarter": "2026Q3",
+   "year": "2026",
+   "ym": "2026-07",
+   "title": "Binance Will List Aerodrome (AERO) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "DJTB",
+   "first_date": "2026-08-26T00:00:00",
+   "quarter": "2026Q3",
+   "year": "2026",
+   "ym": "2026-08",
+   "title": "Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26",
+   "cat": "spot_legacy"
+  },
+  {
+   "symbol": "MARSCOIN",
+   "first_date": "2026-09-04T00:00:00",
+   "quarter": "2026Q3",
+   "year": "2026",
+   "ym": "2026-09",
+   "title": "Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied",
+   "cat": "spot"
+  },
+  {
+   "symbol": "CRMB",
+   "first_date": "2026-09-09T00:00:00",
+   "quarter": "2026Q3",
+   "year": "2026",
+   "ym": "2026-09",
+   "title": "Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-09",
+   "cat": "ecosystem_add"
+  },
+  {
+   "symbol": "HIMSB",
+   "first_date": "2026-09-09T00:00:00",
+   "quarter": "2026Q3",
+   "year": "2026",
+   "ym": "2026-09",
+   "title": "Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-09",
+   "cat": "ecosystem_add"
+  }
+ ],
+ "futures": [
+  {
+   "symbol": "SOL",
+   "first_date": "2020-09-14T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "title": "Binance Futures Will Launch EGLD, SOL, ICX and BTT USDT-Margined Perpetual Contracts With Up to 50x Leverage"
+  },
+  {
+   "symbol": "ETH",
+   "first_date": "2020-09-24T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "title": "Binance Futures Will List BTC, ETH, ADA & LINK Coin-Margined Quarterly 0326 Futures Contracts"
+  },
+  {
+   "symbol": "ADA",
+   "first_date": "2020-09-24T00:00:00",
+   "quarter": "2020Q3",
+   "year": "2020",
+   "title": "Binance Futures Will List BTC, ETH, ADA & LINK Coin-Margined Quarterly 0326 Futures Contracts"
+  },
+  {
+   "symbol": "LTC",
+   "first_date": "2020-11-30T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "title": "Binance Futures Will Launch XRP, LTC, EOS, BCH Quarterly 1225 & 0326 Coin-Margined Contracts with up to 75X Leverage"
+  },
+  {
+   "symbol": "EOS",
+   "first_date": "2020-11-30T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "title": "Binance Futures Will Launch XRP, LTC, EOS, BCH Quarterly 1225 & 0326 Coin-Margined Contracts with up to 75X Leverage"
+  },
+  {
+   "symbol": "ETC",
+   "first_date": "2020-12-07T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "title": "Binance Futures Will Launch TRX, ETC, FIL Quarterly 1225 & 0326 Coin-Margined Contracts with up to 75X Leverage"
+  },
+  {
+   "symbol": "UNFI",
+   "first_date": "2020-12-28T00:00:00",
+   "quarter": "2020Q4",
+   "year": "2020",
+   "title": "Binance Futures Will Launch USDT-Margined BNT, UNFI, CHZ Perpetual Contracts with Up to 20X Leverage"
+  },
+  {
+   "symbol": "BTC",
+   "first_date": "2021-09-21T00:00:00",
+   "quarter": "2021Q3",
+   "year": "2021",
+   "title": "Binance Futures Will List USDⓈ-M BTC & ETH Quarterly 1231 Futures Contracts"
+  },
+  {
+   "symbol": "BNB",
+   "first_date": "2023-12-28T00:00:00",
+   "quarter": "2023Q4",
+   "year": "2023",
+   "title": "Binance Futures Will Launch USDC-Margined BTC, ETH, BNB, SOL and XRP Perpetual Contracts: Enjoy 10% Off When Trading on USDC-Margined Futures!"
+  },
+  {
+   "symbol": "FUTURES",
+   "first_date": "2024-01-08T00:00:00",
+   "quarter": "2024Q1",
+   "year": "2024",
+   "title": "Binance Will Launch Sleepless AI (AI) on Margin & Futures"
+  },
+  {
+   "symbol": "NEO",
+   "first_date": "2024-04-16T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "title": "Binance Futures Will Launch USDC-Margined ARB, NEO, and FIL Perpetual Contracts With Up to 75x Leverage"
+  },
+  {
+   "symbol": "TIA",
+   "first_date": "2024-04-24T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "title": "Binance Futures Will Launch USDC-Margined BOME, TIA, and MATIC Perpetual Contracts With Up to 75x Leverage"
+  },
+  {
+   "symbol": "ETHFI",
+   "first_date": "2024-04-30T00:00:00",
+   "quarter": "2024Q2",
+   "year": "2024",
+   "title": "Binance Futures Will Launch USDC-Margined ENA, ETHFI, and 1000BONK Perpetual Contracts With Up to 50x Leverage"
+  },
+  {
+   "symbol": "DRIFTUSDT",
+   "first_date": "2024-11-08T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "title": "Binance Futures Will Launch USDⓈ-Margined GRASSUSDT, DRIFTUSDT, and SWELLUSDT Perpetual Contracts With up to 75x Leverage"
+  },
+  {
+   "symbol": "KOMAUSDT",
+   "first_date": "2024-12-10T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "title": "Binance Futures Will Launch USDⓈ-Margined RAYSOLUSDT, KOMAUSDT, VIRTUALUSDT, and SPXUSDT Perpetual Contracts With up to 75x Leverage"
+  },
+  {
+   "symbol": "VIRTUALUSDT",
+   "first_date": "2024-12-10T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "title": "Binance Futures Will Launch USDⓈ-Margined RAYSOLUSDT, KOMAUSDT, VIRTUALUSDT, and SPXUSDT Perpetual Contracts With up to 75x Leverage"
+  },
+  {
+   "symbol": "FARTCOINUSDT",
+   "first_date": "2024-12-20T00:00:00",
+   "quarter": "2024Q4",
+   "year": "2024",
+   "title": "Binance Futures Will Launch USDⓈ-Margined AIXBTUSDT, FARTCOINUSDT, KMNOUSDT and CGPTUSDT Perpetual Contracts With up to 75x Leverage"
+  },
+  {
+   "symbol": "ALCHUSDT",
+   "first_date": "2025-01-07T00:00:00",
+   "quarter": "2025Q1",
+   "year": "2025",
+   "title": "Binance Futures Will Launch USDⓈ-Margined COOKIEUSDT, ALCHUSDT, and SWARMSUSDT Perpetual Contracts With up to 75x Leverage"
+  }
+ ]
+}
