@@ -211,6 +211,35 @@ ax.set_title('币安历年上币数量：现货 vs 合约（2017-2026，官方�
 plt.tight_layout(); plt.savefig(f'{OUT}/08-yearly-listings-2017-2026.png', bbox_inches='tight'); plt.close()
 print('✅ 08-yearly-listings-2017-2026.png')
 
+# ================= 图 9：最近 14 个月放大 =================
+last = months[-14:]
+lx = [datetime.datetime.strptime(m + '-01', '%Y-%m-%d') for m in last]
+lsp = [m_spot.get(m, 0) for m in last]
+lfu = [m_fut.get(m, 0) for m in last]
+lfl = [(mflow[m][-1] - mflow[m][0]) / 1e9 for m in last]
+
+fig, ax1 = plt.subplots(figsize=(14, 7))
+ax1.bar(lx, lsp, width=18, color='#2E86DE', label='现货新币')
+ax1.bar(lx, lfu, width=18, bottom=lsp, color='#EE5A24', label='合约新币')
+for i, (s, f) in enumerate(zip(lsp, lfu)):
+    ax1.text(lx[i], s + f + 0.5, f'{s+f}', ha='center', fontsize=10, fontweight='bold')
+ax1.set_ylabel('上币数量（个/月）', fontsize=12)
+ax1.grid(axis='y', alpha=0.25, linestyle='--')
+ax1.set_zorder(2); ax1.patch.set_visible(False)
+
+ax2 = ax1.twinx()
+ax2.bar(lx, lfl, width=9, color='#10AC84', alpha=0.45, label='稳定币月度净变化（B）')
+ax2.axhline(0, color='#666', lw=1, ls=':')
+ax2.set_ylabel('稳定币月度净变化（十亿美元）', fontsize=12, color='#10AC84')
+ax2.set_zorder(1)
+
+h1, l1 = ax1.get_legend_handles_labels(); h2, l2 = ax2.get_legend_handles_labels()
+ax1.legend(h1 + h2, l1 + l2, loc='upper left', fontsize=10.5, framealpha=0.9)
+ax1.set_title('当前放大：最近 14 个月 上币频率 vs 资金流向（2025.08-2026.09）\n2026Q3 上币降至 5.6 个/月，低于熊市末期基准（7.2）', fontsize=13.5, pad=14)
+fig.autofmt_xdate()
+plt.tight_layout(); plt.savefig(f'{OUT}/09-recent-14-months.png', bbox_inches='tight'); plt.close()
+print('✅ 09-recent-14-months.png')
+
 # 输出年度数字供报告引用
 print('\n年度：')
 for y, s, f in zip(years, ys_spot, ys_fut):
