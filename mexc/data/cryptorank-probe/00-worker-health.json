@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "worker": "http-proxy",
+  "usage": "GET /?url=<encoded target url>[&key=<apikey>]",
+  "allowHosts": [
+    "api.cryptorank.io",
+    "docs.cryptorank.io",
+    "cryptorank.io",
+    "api.coingecko.com",
+    "pro-api.coinmarketcap.com",
+    "api.binance.com",
+    "fapi.binance.com",
+    "api.coinpaprika.com",
+    "api.coincap.io",
+    "api.livecoinwatch.com",
+    "data.messari.io",
+    "api.coinlore.net",
+    "api.llama.fi",
+    "coins.llama.fi",
+    "api.odaily.news",
+    "api.bybit.com",
+    "api.okx.com",
+    "api.kraken.com",
+    "api.coinbase.com",
+    "api.dune.com",
+    "api.blockbeats.io"
+  ],
+  "builtinKeyFor": [
+    "api.cryptorank.io"
+  ],
+  "version": "2.0"
+}

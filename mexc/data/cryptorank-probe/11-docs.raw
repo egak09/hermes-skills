@@ -1,0 +1,30 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.cryptorank.io/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Introduction
+
+> Cryptorank Public API v3 — funding rounds, token unlocks, funds, and market data for B2B clients and partners.
+
+<Info>
+  **Primary Server URL:** [https://api.cryptorank.io/v3/](https://api.cryptorank.io/v3/)
+</Info>
+
+<CardGroup cols={2}>
+  <Card title="API Plans" icon="rocket" href="https://cryptorank.io/public-api/pricing">
+    Compare daily and monthly quotas and pick the tier that fits.
+  </Card>
+
+  <Card title="Migration Guide v2 → v3" icon="arrow-right-arrow-left" href="/migration/overview">
+    Moving from v2? See what changed and the full v2 → v3 endpoint mapping.
+  </Card>
+
+  <Card title="Authentication" icon="key" href="/authentication">
+    Generate an API key in the dashboard and pass it in the `X-Api-Key`
+    header.
+  </Card>
+
+  <Card title="MCP Server" icon="plug" href="/mcp-server">
+    Connect Cryptorank data to Claude, Cursor, or any MCP client.
+  </Card>
+</CardGroup>

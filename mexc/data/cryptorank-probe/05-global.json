@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "Cannot GET /v3/global",
+    "status": 404
+  }
+}

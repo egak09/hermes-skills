@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "ENDPOINT_NOT_AVAILABLE",
+    "message": "Endpoint is not available in your plan",
+    "status": 403
+  }
+}
