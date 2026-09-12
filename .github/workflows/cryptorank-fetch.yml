@@ -33,11 +33,14 @@ jobs:
       - name: 探测 CryptoRank API
         run: bash ci/cryptorank-probe.sh
 
+      - name: 探测多数据源可达性
+        run: bash ci/probe2.sh
+
       - name: 提交结果
         run: |
           git config user.name "hermes-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A mexc/data/cryptorank-probe
+          git add -A mexc/data
           if git diff --cached --quiet; then
             echo "无变化"
           else
