@@ -10,7 +10,13 @@ t() { # name  cmd...
   local name="$1"; shift
   local code
   code=$(curl -sS -m 45 -o "$OUT/$name.raw" -w '%{http_code}' "$@" 2>/dev/null || echo ERR)
-  echo "[$name] HTTP=$code :: $(head -c 200 "$OUT/$name.raw" 2>/dev/null | tr -d '\n')"
+  {
+    echo "HTTP=$code"
+    echo "--- body (first 800 bytes) ---"
+    head -c 800 "$OUT/$name.raw" 2>/dev/null
+    echo
+  } > "$OUT/$name.txt"
+  echo "[$name] HTTP=$code :: $(head -c 160 "$OUT/$name.raw" 2>/dev/null | tr -d '\n')"
   rm -f "$OUT/$name.raw"
 }
 
