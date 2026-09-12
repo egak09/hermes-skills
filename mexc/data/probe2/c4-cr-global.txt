@@ -1,0 +1,1 @@
+{"data":{"totalMarketCap":"2763808304084","totalVolume24h":"42458356042","btcMarketCap":"1553256591030","ethMarketCap":"309141870937","activeCurrencies":5236,"activeTickers":52836,"activeExchanges":287,"marketCapChangePercent24h":1.57},"status":{"usedCredits":1,"timestamp":1789204394762}}

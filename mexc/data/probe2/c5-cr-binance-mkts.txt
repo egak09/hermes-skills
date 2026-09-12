@@ -1,0 +1,1 @@
+{"error":{"code":"NOT_FOUND","message":"Cannot GET /v3/exchanges/binance/markets","status":404}}
