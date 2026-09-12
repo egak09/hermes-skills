@@ -39,6 +39,9 @@ jobs:
       - name: 探测币安数据通道
         run: bash ci/probe3.sh
 
+      - name: 探测币安公告 API
+        run: bash ci/probe4.sh
+
       - name: 提交结果
         run: |
           git config user.name "hermes-bot"
