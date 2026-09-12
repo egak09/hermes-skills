@@ -1,0 +1,35 @@
+name: binance-listings
+
+# 全量抓取币安上币公告历史（2017 → 今）
+# 数据源可直接从 GitHub runner 访问（www.binance.com 对 runner 开放）
+on:
+  push:
+    paths:
+      - 'ci/binance-listings.sh'
+      - '.github/workflows/binance-listings.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 抓取公告
+        run: bash ci/binance-listings.sh
+
+      - name: 提交结果
+        run: |
+          git config user.name "hermes-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A mexc/data/binance-announcements
+          if git diff --cached --quiet; then
+            echo "无变化"
+          else
+            git commit -m "data(binance): 上币公告全量抓取 [skip ci]"
+            git push
+          fi
