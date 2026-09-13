@@ -1,1 +1,1 @@
-{"data":{"totalMarketCap":"2764063103031","totalVolume24h":"42415654377","btcMarketCap":"1553301525256","ethMarketCap":"309220147884","activeCurrencies":5238,"activeTickers":52834,"activeExchanges":287,"marketCapChangePercent24h":1.6},"status":{"usedCredits":1,"timestamp":1789204774520}}
+{"data":{"totalMarketCap":"2729037890234","totalVolume24h":"18172255278","btcMarketCap":"1550631824377","ethMarketCap":"306909906891","activeCurrencies":5074,"activeTickers":52193,"activeExchanges":287,"marketCapChangePercent24h":-1.1},"status":{"usedCredits":1,"timestamp":1789282780193}}

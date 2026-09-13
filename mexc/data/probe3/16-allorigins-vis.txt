@@ -1,4 +1,3 @@
-HTTP=522
+HTTP=408
 --- body (first 800 bytes) ---
-error code: 522
-
+Oops... Request Timeout.
